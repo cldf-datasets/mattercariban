@@ -1,0 +1,46 @@
+(
+'Apalaí',
+(
+'Galibi Carib',
+('Maquiritari','Wayumara')'Maquiritari-Wayumara',
+'Palmela',
+(
+'Carijona',
+('Akurio','Pauxi','Trió')'Tiriyoan'
+)'Taranoan',
+('Tiverighotto','Wayana','Yebarana')'Wayanaic'
+)'Guianan',
+(
+('Kuikúro-Kalapálo','Matipuhy')'Nuclear Kuikuroan',
+'Pimenteira'
+)'Kuikuroan',
+(
+'Opón-Carare',
+('Japrería','Yukpa')'Yukpan'
+)'Opon-Yukpan',
+(
+'Kaxuiâna',
+('Hixkaryána','Waiwai')'Waiwaian'
+)'Parukotoan',
+(
+'Bakairí',
+('Apiaka-Tocantins','Ikpeng','Pará Arára','Yarumá')'Xinguan'
+)'Pekodian',
+(
+(
+('Chaima','Cumanagoto')'Cumana',
+('Mapoyo','Pémono','Yabarana')'Mapoyo-Yawarana',
+('Paravilhana','Pauxiana','Sapara')'Paravilhana-Pauxiana',
+'Tamanaku'
+)'Mapoyo-Tamanaku',
+(
+'Panare',
+(
+('Akawaio','Patamona')'Kapong',
+'Macushi',
+'Pemon'
+)'Pemongan'
+)'Pemong-Panare'
+)'Venezuelan Cariban',
+('Bonari','Waimiri-Atroari')'Yawaperi'
+)'Cariban';
