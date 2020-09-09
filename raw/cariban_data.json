@@ -6,7 +6,7 @@
         }
     ],
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
-	"dc:source": "/Users/florianm/Dropbox/Uni/Research/LiMiTS/global_latex_files/cariban_resolved.bib",
+	"dc:source": "cariban_resolved.bib",
     "dialect": {
         "commentPrefix": null
     },
