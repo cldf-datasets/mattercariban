@@ -1,0 +1,651 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
+	"dc:source": "/Users/florianm/Dropbox/Uni/Research/LiMiTS/global_latex_files/cariban_resolved.bib",
+    "dialect": {
+        "commentPrefix": null
+    },
+    "tables": [
+        {
+            "url": "cariban_morphemes.csv",
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
+            "tableSchema": {
+                "columns": [
+                    {
+                        "name": "ID",
+                        "required": true,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        }
+                    },
+                    {
+                        "name": "Cognateset_ID",
+						"required": true,
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#cognatesetReference",
+						"separator": "; "
+					},
+                    {
+                        "name": "Language_ID",
+                        "required": true,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "Parameter_ID",
+                        "required": false,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
+                        "datatype": "string",
+						"titles": "Function",
+						"separator": "; "
+                    },
+                    {
+                        "name": "Form",
+                        "required": true,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#form",
+                        "datatype": "string",
+						"separator": "; "
+                    },
+                    {
+                        "name": "Comment",
+                        "required": false,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "Source",
+                        "required": true,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                        "datatype": {
+                            "base": "string"
+                        },
+                        "separator": ";"
+                    },
+					{
+						"name": "CD_TR",
+						"required": false,
+						"datatype": "string"
+					},
+					{
+						"name": "CD_INTR",
+						"required": false,
+						"datatype": "string"
+					},
+					{
+						"name": "Host",
+						"required": false,
+						"datatype": "string"
+					}
+                ]
+            }
+        },
+		{
+		    "url": "cariban_language_list.csv",
+		    "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
+		    "tableSchema": {
+		        "columns": [
+		            {
+		                "name": "ID",
+		                "required": true,
+		                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+		                "datatype": {
+		                    "base": "string",
+		                    "format": "[a-zA-Z0-9_\\-]+"
+		                }
+		            },
+		            {
+		                "name": "Name",
+		                "required": true,
+		                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+		                "datatype": "string",
+						"titles": "Orthographic"
+		            },
+		            {
+		                "name": "Shorthand",
+		                "required": true,
+		                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+		                "datatype": "string"
+		            },
+		            {
+		                "name": "Glottocode",
+		                "required": false,
+		                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+		                "datatype": {
+		                    "base": "string",
+		                    "format": "[a-zA-Z0-9_\\-]+"
+		                }
+		            },
+		            {
+		                "name": "Latitude",
+		                "required": false,
+		                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#latitude",
+		                "datatype": {
+		                    "base": "decimal",
+		                    "minimum": -90,
+		                    "maximum": 90
+		                },
+						"titles": "lat"
+		            },
+		            {
+		                "name": "Longitude",
+		                "required": false,
+		                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#longitude",
+		                "datatype": {
+		                    "base": "decimal",
+		                    "minimum": -180,
+		                    "maximum": 180
+		                },
+						"titles": "long"
+		            },
+					{
+						"name": "Sampled",
+						"required": true,
+						"datatype": "string"
+					},
+					{
+						"name": "Alive",
+						"required": true,
+						"datatype": "string"
+					},
+					{
+						"name": "CLLD_Name",
+						"required": false,
+						"datatype": "string"
+					},
+					{
+						"name": "IPA",
+						"required": false,
+						"datatype": "string"
+					},
+					{
+						"name": "ISO",
+						"required": false,
+						"datatype": "string"
+					},
+					{
+						"name": "Alternative_Names",
+						"required": false,
+						"datatype": "string",
+						"separator": "; "
+					},
+					{
+						"name": "Todo",
+						"required": false,
+						"datatype": "string"
+					},
+					{
+						"name": "Dialect_Of",
+						"required": false,
+						"datatype": "string"
+					},
+					{
+						"name": "Comment",
+						"required": false,
+						"datatype": "string",
+		                      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment"
+					}
+		        ]
+		    }
+		},
+        {
+            "url": "cariban_examples.csv",
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ExampleTable",
+            "tableSchema": {
+                "columns": [
+                    {
+                        "name": "ID",
+                        "required": true,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+						"titles": "Example_ID"
+                    },
+                    {
+                        "name": "Language_ID",
+                        "required": true,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "Name",
+                        "required": true,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+                        "datatype": "string",
+						"titles": "Sentence"
+                    },
+                    {
+                        "name": "Analyzed_Word",
+                        "required": true,
+                        "datatype": "string",
+			 		   	"propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#analyzedWord",
+						"titles": "Segmentation",
+						"separator": " "
+                    },
+                    {
+                        "name": "Gloss",
+                        "required": true,
+                        "datatype": "string",
+			 		   	"propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#gloss",
+						"separator": " "
+                    },
+                    {
+                        "name": "Morpheme_IDs",
+                        "required": true,
+                        "datatype": "string",
+			 		   	"propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#gloss",
+						"separator": " "
+                    },
+                    {
+                        "name": "Translated_Text",
+                        "required": true,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
+                        "datatype": "string",
+						"titles": "Translation"
+                    },
+					{
+						"name": "Comment",
+						"required": false,
+						"datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment"
+					},
+                    {
+                        "name": "Source",
+                        "required": true,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                        "datatype": {
+                            "base": "string"
+                        }
+                    },
+                    {
+                        "name": "Orig_Segmentation",
+                        "required": false,
+                        "datatype": "string",
+			 		   	"propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#analyzedWord",
+						"separator": " "
+                    },
+                    {
+                        "name": "Orig_Glossing",
+                        "required": false,
+                        "datatype": "string",
+			 		   	"propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#gloss",
+						"separator": " "
+                    },
+                    {
+                        "name": "Orig_Translation",
+                        "required": false,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
+                        "datatype": "string"
+                    }
+                ]
+            }
+        },
+		{
+		    "url": "cariban_cognatesets.csv",
+		    "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CognatesetTable",
+		    "tableSchema": {
+		        "columns": [
+		            {
+		                "name": "ID",
+		                "required": true,
+		                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+		                "datatype": {
+		                    "base": "string",
+		                    "format": "[a-zA-Z0-9_\\-]+"
+		                }
+		            },
+					{
+                        "name": "Name",
+                        "required": true,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+                        "datatype": "string",
+						"titles": "Sentence"
+                    },
+		            {
+		                "name": "Function",
+		                "required": false,
+		                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
+		                "datatype": "string"
+		            },
+		            {
+		                "name": "Description",
+		                "required": false,
+		                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
+		                "datatype": "string"
+		            },
+		            {
+		                "name": "Source",
+		                "required": false,
+		                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+		                "datatype": {
+		                    "base": "string"
+		                },
+		                "separator": ";"
+		            }
+		        ]
+		    }
+		},
+		{
+		    "url": "cariban_constructions.csv",
+		    "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
+		    "tableSchema": {
+		        "columns": [
+		            {
+		                "name": "ID",
+		                "required": true,
+		                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+		                "datatype": {
+		                    "base": "string",
+		                    "format": "[a-zA-Z0-9_\\-]+"
+		                }
+		            },
+		            {
+		                "name": "Description",
+		                "required": false,
+		                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
+		                "datatype": "string",
+						"titles": "Name"
+		            },
+		            {
+		                "name": "Language_ID",
+		                "required": true,
+		                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+		                "datatype": "string"
+		            },
+					{
+						"name": "Comment",
+						"required": false,
+						"datatype": "string",
+		                      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment"
+					},
+					{
+						"name": "DeclarativeType",
+						"required": false,
+						"datatype": "string"
+					},
+					{
+						"name": "MainClauseVerb",
+						"required": false,
+						"datatype": "string"
+					}
+		        ]
+		    }
+		},
+		{
+		    "url": "cariban_morpheme_functions.csv",
+		    "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
+		    "tableSchema": {
+		        "columns": [
+		            {
+		                "name": "ID",
+		                "required": false,
+		                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+		                "datatype": {
+		                    "base": "string",
+		                    "format": "[a-zA-Z0-9_\\-]+"
+		                }
+		            },
+		            {
+		                "name": "Morpheme",
+		                "required": true,
+		                "datatype": "string",
+						"separator": "; "
+		            },
+		            {
+		                "name": "Construction",
+		                "required": false,
+		                "datatype": "string",
+						"separator": "; "
+		            },
+		            {
+		                "name": "Function",
+		                "required": true,
+		                "datatype": "string",
+						"separator": "; "
+		            },
+					{
+						"name": "Comment",
+						"required": false,
+						"datatype": "string"
+					},
+					{
+						"name": "Complementary_Distribution",
+						"required": false,
+						"datatype": "string"
+					}
+		        ]
+		    }
+		},
+		{
+		    "url": "cariban_trees.csv",
+		    "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#TreeTable",
+		    "tableSchema": {
+		        "columns": [
+		            {
+		                "name": "ID",
+		                "required": true,
+		                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+		                "datatype": {
+		                    "base": "string",
+		                    "format": "[a-zA-Z0-9_\\-]+"
+		                }
+		            },
+                    {
+                        "name": "Source",
+                        "required": false,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                        "datatype": {
+                            "base": "string"
+                        }
+                    },
+					{
+						"name": "Comment",
+						"required": false,
+						"datatype": "string"
+					},
+					{
+						"name": "Orig_Comment",
+						"required": false,
+						"datatype": "string"
+					}
+		        ]
+		    }
+		},
+		{
+		    "url": "cariban_t_verbs.csv",
+		    "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#SecondFormTable",
+		    "tableSchema": {
+		        "columns": [
+		            {
+		                "name": "ID",
+		                "required": true,
+		                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+		                "datatype": {
+		                    "base": "string",
+		                    "format": "[a-zA-Z0-9_\\-]+"
+		                }
+		            },
+                    {
+                        "name": "Cognateset_ID",
+						"required": true,
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#cognatesetReference"
+					},
+                    {
+                        "name": "Form",
+                        "required": true,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#form",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "Language_ID",
+                        "required": true,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "Parameter_ID",
+                        "required": false,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
+                        "datatype": "string",
+						"titles": "Meaning",
+						"separator": "; "
+                    },
+                    {
+                        "name": "Source",
+                        "required": false,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                        "datatype": {
+                            "base": "string"
+                        }
+                    },
+					{
+						"name": "t",
+						"required": true,
+						"datatype": "string",
+						"titles": "t?"
+					},
+					{
+						"name": "Comment",
+						"required": false,
+						"datatype": "string"
+					}
+		        ]
+		    }
+		},
+		{
+		    "url": "cariban_t_cognates.csv",
+		    "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#SecondCognatesetTable",
+		    "tableSchema": {
+		        "columns": [
+		            {
+		                "name": "ID",
+		                "required": true,
+		                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+		                "datatype": {
+		                    "base": "string",
+		                    "format": "[a-zA-Z0-9_\\-]+"
+		                }
+		            },
+                    {
+                        "name": "Form",
+                        "required": true,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#form",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "Parameter_ID",
+                        "required": false,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
+                        "datatype": "string",
+						"titles": "Meaning"
+                    },
+                    {
+                        "name": "Source",
+                        "required": false,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                        "datatype": {
+                            "base": "string"
+                        }
+                    },
+					{
+						"name": "Comment",
+						"required": false,
+						"datatype": "string",
+						"titles": "Description"
+					}
+		        ]
+		    }
+		},
+        {
+            "url": "cariban_swadesh_list.csv",
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ThirdFormTable",
+            "tableSchema": {
+                "columns": [
+                    {
+                        "name": "Cognateset_ID",
+						"required": true,
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#cognatesetReference"
+					},
+                    {
+                        "name": "Language_ID",
+                        "required": true,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "Parameter_ID",
+                        "required": false,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
+                        "datatype": "string",
+						"titles": "Feature_ID"
+                    },
+                    {
+                        "name": "Value",
+                        "required": true,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#form",
+                        "datatype": "string",
+						"separator": "; "
+                    },
+                    {
+                        "name": "Comment",
+                        "required": false,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "FullForm",
+                        "required": false,
+                        "datatype": "string",
+						"titles": "Full_Form"
+                    },
+                    {
+                        "name": "Source",
+                        "required": false,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                        "datatype": {
+                            "base": "string"
+                        }
+                    },
+                    {
+                        "name": "Swadesh_Nr",
+                        "required": false,
+                        "datatype": "string"
+                    }
+                ]
+            }
+        },
+		{
+		    "url": "cariban_lexical_reconstructions.csv",
+		    "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ThirdCognatesetTable",
+		    "tableSchema": {
+		        "columns": [
+		            {
+		                "name": "ID",
+		                "required": true,
+		                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+		                "datatype": {
+		                    "base": "string",
+		                    "format": "[a-zA-Z0-9_\\-]+"
+		                }
+		            },
+					{
+                        "name": "Form",
+                        "required": true,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+                        "datatype": "string"
+                    }
+		        ]
+		    }
+		}
+    ]
+}
