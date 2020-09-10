@@ -27,7 +27,7 @@ morph:kar_3i occurs as a 3>3 marker, obj:t(ɨ)- occurs with intransitive verbs a
 "ikp_main","main","ikpe1245","Lexically conditioned split-S.","decl","y"
 "ikp_imp","imperative","ikpe1245",,"imp","y"
 "ing_old","inherited","kapo1251","This construction can also be used with innovated 1>2 and 1>3 forms, see cons:ing_old1","decl","y"
-"ing_old1","inherited new","kapo1251","This is an innovative Set I construction; it differs from cons:ing_old by its 1>2 and 1>3 forms.",,
+"ing_old1","inherited new","kapo1251","This is an innovative Set I construction; it differs from cons:ing_old by its 1>2 and 1>3 forms.","decl","y"
 "ing_new","innovated","kapo1251",,"decl","y"
 "ing_imp","imperative","kapo1251","This is the inherited imperative construction; there is also another (src:cruz2005fonologia[285ff]).","imp","y"
 "ing_nmlz","nominalized","kapo1251",,,"n"
