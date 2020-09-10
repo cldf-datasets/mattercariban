@@ -12,6 +12,8 @@
 "car_main","main","cari1279",,"decl","y"
 "pc_main","main","cari1283",,"decl","y"
 "pan_pstpfv","past perfective","enap1235",,"decl","y"
+"pan_pstpfv1","past perfective innovative 1","enap1235","This construction is a variant of cons:pan_pstpfv with innovative 1>2 marking.","decl","y"
+"pan_pstpfv2","past perfective innovative 2","enap1235","This construction is a variant of cons:pan_pstpfv with innovative 1>2 marking, as reported by src:gildea1989panare[117] for the dialect documented by Jana Price.","decl","y"
 "pan_new","non-pastperfective","enap1235",,"decl","y"
 "pan_imp","imperative","enap1235",,"imp","y"
 "pan_advz","non-finite","enap1235",,,"n"
