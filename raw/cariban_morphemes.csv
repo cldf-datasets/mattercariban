@@ -103,15 +103,15 @@
 "kar_3","3n; 3i","gali1262","ni-; n-","courtz2008carib[78]","V","causes umlaut"
 "kar_13pro","13pro","gali1262","(n)aʔna","courtz2008carib[53]",,
 "kar_3i","3i","gali1262","i-; Ø-","courtz2008carib[90]","V","With the cons:kar_psthab, there is dialectal variation. src:hoff1968carib[161] documents past habitual forms without obj:i-."
-"kar_1a","1a; 3i","gali1262","si-; s-","courtz2008carib","V",
+"kar_1a","1a; 3i","gali1262","si-; s-","courtz2008carib","V","causes umlaut"
 "kar_1sa","1sa","gali1262","w-","courtz2008carib","V",
-"kar_1p","1p; link","gali1262","ɨj-; ɨ-","courtz2008carib","V","The form given here is a Proto-lg:kalina form, as modern varieties have either deleted initial /ɨ/, or undergone metathesis of /ɨ/ and /j/."
-"kar_2p","2p; link","gali1262","aj-; a-; o-","courtz2008carib","V",
-"kar_12a","12a; 3i","gali1262","kɨsi-; kɨs-","courtz2008carib[75]","V",
-"kar_12sa","12a","gali1262","kɨt-","courtz2008carib[75]","V",
+"kar_1p","1p; link","gali1262","ɨj-; ɨ-","courtz2008carib","V","causes umlaut. The form given here is a Proto-lg:kalina form, as modern varieties have either deleted initial /ɨ/, or undergone metathesis of /ɨ/ and /j/."
+"kar_2p","2p; link","gali1262","aj-; a-; o-","courtz2008carib","V","causes umlaut"
+"kar_12a","12a; 3i","gali1262","kɨsi-; kɨs-","courtz2008carib[75]","V","causes umlaut"
+"kar_12sa","12a","gali1262","kɨt-","courtz2008carib[75]","V","no umlaut"
 "kar_2a","2a; 3i","gali1262","mi-; m-","courtz2008carib","V","causes umlaut"
 "kar_2sa","2a","gali1262","m-","courtz2008carib","V","no umlaut"
-"kar_12",12,"gali1262","kɨ-; k-","courtz2008carib[75]","V",
+"kar_12",12,"gali1262","kɨ-; k-","courtz2008carib[75]","V","no umlaut"
 "kar_detrz","refl; recp","gali1262","ot-; os-; e-; ai-; oʔ-; as-","courtz2008carib[77]","V","Some verbs show a meaning difference between obj:as- and obj:o-: obj:ene ‘to see’, obj:asene ‘to see oneself’, obj:one ‘to be visible’ (src:courtz2008carib[77])."
 "kar_cor","cor","gali1262","tɨ-; t-","courtz2008carib[66]","V; N",
 "kar_topo","topo","gali1262","-topo","courtz2008carib[117]","V",
@@ -249,7 +249,7 @@ Even if it had been there at some point, the linker does not leave umlaut traces
 "mac_inf","inf","macu1259","-nɨ; -n","macushiabbott1991[112]","V",
 "mac_ri","ri","macu1259","Ø","gildea1998","V",
 "mak_3sp","3n; 3i","maqu1238","ni-; n-","maquiritaricaceres2011[183]","V","no umlaut"
-"mak_3sa","3n","maqu1238","nɨ-; n-","maquiritaricaceres2011[183]","V","no umlaut"
+"mak_3sa","3n","maqu1238","n-","maquiritaricaceres2011[183]","V","no umlaut"
 "mak_3tr","3n; 3i","maqu1238","ni-; n-","maquiritaricaceres2011[183]","V","causes umlaut"
 "mak_3i","3i","maqu1238","i-; Ø","maquiritaricaceres2011[229]","V","causes umlaut"
 "mak_t","t","maqu1238","tɨ-; t-","maquiritaricaceres2011[127]","V",
