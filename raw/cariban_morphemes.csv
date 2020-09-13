@@ -125,9 +125,9 @@
 "hix_t","t","hixk1239","t-; t͡ʃ-; s-","hixkaryanaderby1985[192]","V",
 "hix_13pro","13pro","hixk1239","amna","hixkaryanaderby1985[190]",,
 "hix_3i","3i","hixk1239","ɨ-; Ø-","hixkaryanaderby1985[194]","V",
-"hix_1a","1sa","hixk1239","ɨ-; w-","hixkaryanaderby1985[188]","V",
+"hix_1a","1sa","hixk1239","ɨ-; w-","hixkaryanaderby1985[188]","V","causes umlaut"
 "hix_1s",12,"hixk1239","kɨ-; k-","hixkaryanaderby1985[188]","V",
-"hix_1p","emp","hixk1239","ro-; r-","hixkaryanaderby1985[188]","V","Given the presence of the linker morph:hix_lk, it is somewhat surprising that this prefix is not obj:roj-/obj:ro-:
+"hix_1p","emp","hixk1239","ro-; r-","hixkaryanaderby1985[188]","V","no umlaut. Given the presence of the linker morph:hix_lk, it is somewhat surprising that this prefix is not obj:roj-/obj:ro-:
 ex:hix-34
 Even if it had been there at some point, the linker does not leave umlaut traces in lg:hixka (src:meira2010origin[490])."
 "hix_2p","2p; link","hixk1239","oj-; o-","hixkaryanaderby1985[189]","V",
@@ -285,16 +285,16 @@ This allomorph was not found with any other verb."
 "ara_1sa","1sa","para1310","wɨ-; w-","alves2017arara[149]","V",
 "ara_1sa1",12,"para1310","k-","alves2017arara[149]","V",
 "ara_1a","pek_1a","para1310","j-; ini-; in-","alves2017arara[144]","V","The deletion of final /i/ is lexically conditioned, and not with the same distribution as the allomorphy of morph:ara_12a (src:alves2017arara[145])."
-"ara_1p","1p; link","para1310","j-; ɨw-; ɨ-","alves2017arara[144]","V; N",
+"ara_1p","1p; link","para1310","j-; ɨ-; ɨw-","alves2017arara[144]","V; N",
 "ara_2p","2p","para1310","o-; ow-","alves2017arara[152]","V; N",
 "ara_12a","12a; 3i","para1310","kud-; kut͡ʃi-; kut-","alves2017arara[58]","V","The deletion of final /i/ is lexically conditioned, and not with the same distribution as the allomorphy of morph:ara_1a (src:alves2017arara[144])."
 "ara_12sa","12a","para1310","kut-; kud-; kun-; kut͡ʃ-","alves2017arara[58]","V",
 "ara_2a","2a; 3i","para1310","mi-; m-","alves2017arara[80]","V",
 "ara_2sa","2a","para1310","mɨ-; m-","alves2017arara[80]","V","The form obj:mɨ- only occurs with obj:ke ‘to say’ (src:alves2017arara[150])."
-"ara_12","uku; link","para1310","ugu-; ug-; uk-","alves2017arara[151]","V",
+"ara_12","uku; link","para1310","ugu-; ug-; uk-; ugw-","alves2017arara[151]","V",
 "ara_detrz","recp","para1310","ot͡ʃi-; ot-; od-; on-","alves2017arara[56]","V",
 "ara_lk","link","para1310","j-","alves2017arara[147]","V; N",
-"ara_1on2","NA","para1310","ko-; kw-; kow-; k-","alves2017arara[58]","V","obj:kw- before /a/; obj:kow- before /o/ and /ɨ/; changes following /e to /i/. possible connection to lg:wayana morph:way_1on2?"
+"ara_1on2","NA","para1310","ko-; kw-; k-; kow-","alves2017arara[58]","V","obj:kw- before /a/; obj:kow- before /o/ and /ɨ/; changes following /e to /i/. possible connection to lg:wayana morph:way_1on2?"
 "ara_topo","topo","para1310","-tubo; -tpo","alves2017arara[94--97]","V",
 "ara_agnom","ne","para1310","-ni","alves2017arara[97]","V",
 "ara_ri","ri","para1310","-lɨ; -rɨ; -nɨ","alves2017arara[60]","V",
@@ -418,3 +418,4 @@ This allomorph was not found with any other verb."
 "bak_2sa","2a","baka1277","mɨ-; m-","meira2003bakairi[4]","V","no umlaut"
 "bak_3sa","3n","baka1277","nɨ-; n-","meira2003bakairi[4]","V","no umlaut"
 "bak_12sa","12a","baka1277","kɨd-","meira2003bakairi[4]","V","no umlaut"
+"hix_1sa","1sa","hixk1239","ɨ-; w-","hixkaryanaderby1985[188]","V","no umlaut"
