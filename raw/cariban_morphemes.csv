@@ -2,16 +2,16 @@
 "aku_1k",12,"akur1238","kɨ-; k-","meira1998proto[111]","V",
 "aku_1t","1a","akur1238","t-; t͡ʃ-","meira1998proto[111]","V",
 "aku_1w","1sa","akur1238","wɨ-; w-; Ø","meira1998proto[111]","V",
-"aku_1a","3i","akur1238","i-; Ø","meira1998proto[111]","V",
-"aku_12",12,"akur1238","kɨ-; k-","meira1998proto[103]","V",
-"aku_2a","2a; 3i","akur1238","mi-; m-","meira1998proto[101]","V",
-"aku_2sa","2a","akur1238","mɨ-; m-","meira1998proto[112]","V",
-"aku_12sa","12a","akur1238","kɨt-; kɨ-; kɨh-; kV-","meira1998proto[112--115]","V",
-"aku_12a","12a; 3i","akur1238","kəʔi-; kɨʔi-; kəʔ-; kɨt-","meira1998proto[101]","V",
-"aku_3a","3n; 3i","akur1238","ni-; n-","meira1998proto[104]","V",
-"aku_2p","2p","akur1238","ə-; o-; a-","meira1998proto[75]","V",
-"aku_1p","1p; link","akur1238","jV-; V-","meira1998proto[75]","V",
-"aku_3s","3n","akur1238","n-; nɨ-","meira1998proto[112--115]","V",
+"aku_1a","3i","akur1238","wi-; w-; i-; Ø","meira1998proto[111]; gildea1994akuriyo","V","causes umlaut, shows variation as to loss of obj:w"
+"aku_12",12,"akur1238","kɨ-; k-","meira1998proto[103]","V","no umlaut"
+"aku_2a","2a; 3i","akur1238","mi-; m-","meira1998proto[101]","V","causes umlaut"
+"aku_2sa","2a","akur1238","mɨ-; m-","meira1998proto[112]","V","no umlaut"
+"aku_12sa","12a","akur1238","kɨt-; kɨ-; kɨh-; kV-","meira1998proto[112--115]","V","no umlaut"
+"aku_12a","12a; 3i","akur1238","kəʔi-; kɨʔi-; kəʔ-; kɨt-","meira1998proto[101]","V","causes umlaut"
+"aku_3a","3n; 3i","akur1238","ni-; n-","meira1998proto[104]","V","causes umlaut"
+"aku_2p","2p","akur1238","ə-; o-; a-","meira1998proto[75]","V","causes umlaut"
+"aku_1p","1p; link","akur1238","jV-; V-","meira1998proto[75]","V","causes umlaut"
+"aku_3s","3n","akur1238","n-; nɨ-","meira1998proto[112--115]","V","no umlaut"
 "apa_3pst","3ky; 3n","apal1257","kɨnɨ-; kɨn-","koehn1986apalai[108]","V","causes umlaut"
 "apa_3","3n","apal1257","nɨ-; n-","koehn1986apalai[108]","V","causes umlaut"
 "apa_t","t","apal1257","t-","koehn1986apalai[109]","V",
