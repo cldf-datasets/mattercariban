@@ -386,16 +386,16 @@ This allomorph was not found with any other verb."
 "way_13pro","13pro","waya1269","emna","wayanatavares2005[433]",,
 "way_3i","3i","waya1269","i-; Ø-","wayanatavares2005[227]","V",
 "way_1sa","1sa","waya1269","w-; wɨ-","wayanatavares2005[206]","V",
-"way_1a","1sa; 3i","waya1269","wi-; w-","wayanatavares2005[206]","V",
-"way_1p","1p; link","waya1269","ɨ-; j-","wayanatavares2005[206]","V; N",
+"way_1a","1sa; 3i","waya1269","wi-; w-","wayanatavares2005[206]","V","causes umlaut"
+"way_1p","1p; link","waya1269","ɨ-; j-","wayanatavares2005[206]","V; N","causes umlaut"
 "way_2p","2p","waya1269","əw-; ə-","wayanatavares2005[206]","V; N","causes umlaut; origins of /w/ unclear."
-"way_12a","12a; 3i","waya1269","kuhi-; kuh-; kut-; hi-; h-","wayanatavares2005[207]","V",
+"way_12a","12a; 3i","waya1269","kuhi-; kuh-; kut-; hi-; h-","wayanatavares2005[207]","V","causes umlaut"
 "way_12sa","12a","waya1269","kuh-; kut-; h-","wayanatavares2005[207]","V","Some verbs take the Sa marker for 1+2, but the Sp markers for other persons."
-"way_2a","2a; 3i","waya1269","mi-; m-","wayanatavares2005[208]","V",
+"way_2a","2a; 3i","waya1269","mi-; m-","wayanatavares2005[208]","V","causes umlaut"
 "way_2sa","2a","waya1269","mɨ-; m-","wayanatavares2005[208]","V",
 "way_12",12,"waya1269","ku-; k-","wayanatavares2005[206]","V; N","Some verbs take the Sa marker for 1+2, but the Sp markers for other persons."
 "way_detrz","refl; recp","waya1269","e-; əh-; ət-","wayanatavares2005[254]","V",
-"way_1on2","uku; link","waya1269","kuw-; ku-; k-","wayanatavares2005[207]","V","The origin of /w/ is unclear, but it is also found in morph:way_2p. Causes mlaut."
+"way_1on2","uku; link","waya1269","kuw-; ku-; k-","wayanatavares2005[207]","V","The origin of /w/ is unclear, but it is also found in morph:way_2p. causes umlaut."
 "way_topo","topo","waya1269","-topo; -top","wayanatavares2005[167]","V",
 "way_agnom","ne","waya1269","-ne","wayanatavares2005[162]","V",
 "way_sup","sup","waya1269","-he; -e","wayanatavares2005[235]","V",
