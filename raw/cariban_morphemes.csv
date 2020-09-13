@@ -255,15 +255,15 @@ Even if it had been there at some point, the linker does not leave umlaut traces
 "mak_t","t","maqu1238","tɨ-; t-","maquiritaricaceres2011[127]","V",
 "mak_3a_rem","3ky; 3n; 3i","maqu1238","kini-; kɨn-","maquiritaricaceres2011[184]","V",
 "mak_3_rem","3ky; 3n","maqu1238","kɨn-","maquiritaricaceres2011[184]","V",
-"mak_1on2","2pro; 3n","maqu1238","məni-; mən-","maquiritaricaceres2011[186]","V","seems to be innovated from cogset:2pro and cogset:3n; shows ablaut"
+"mak_1on2","2pro; 3n","maqu1238","məni-; mən-","maquiritaricaceres2011[186]","V","seems to be innovated from cogset:2pro and cogset:3n; causes umlaut"
 "mak_13pro","13pro","maqu1238","nɲa","maquiritaricaceres2011[120]",,"can be bound or free"
 "mak_12",12,"maqu1238","kɨ-; k-","maquiritaricaceres2011[210]","V","In intransitive verbs, reflexes of cogset:12a have been merged almost completely with reflexes of cogset:12 (src:pc[Natalia Cáceres])."
 "mak_12sa","12a","maqu1238","kV-; k-","maquiritaricaceres2011","V",
 "mak_1a","1sa; 3i","maqu1238","wi-; w-","maquiritaricaceres2011[179]","V","causes umlaut"
 "mak_1sa","1sa","maqu1238","w-","maquiritaricaceres2011[179]","V","no umlaut"
-"mak_1p","1p; link","maqu1238","j-; ɨ-; Ø-","maquiritaricaceres2011[186--187]","V; N",
-"mak_2p","2p; link","maqu1238","ə-; a-; o-; aj-; oj-","maquiritaricaceres2011[188]","V; N",
-"mak_12a","12a; 3i","maqu1238","kii-; ki-; kV-; k-","maquiritaricaceres2011[181]","V",
+"mak_1p","1p; link","maqu1238","j-; ɨ-; Ø-","maquiritaricaceres2011[186--187]","V; N","causes umlaut"
+"mak_2p","2p; link","maqu1238","ə-; a-; o-; aj-; oj-","maquiritaricaceres2011[188]","V; N","causes umlaut"
+"mak_12a","12a; 3i","maqu1238","kii-; ki-; kV-; k-","maquiritaricaceres2011[181]","V","causes umlaut"
 "mak_2a","2a; 3i","maqu1238","mi-; m-","maquiritaricaceres2011[180]","V","causes umlaut"
 "mak_2sa","2a","maqu1238","m-","maquiritaricaceres2011[180]","V","no umlaut"
 "mak_detrz","recp","maqu1238","ət-; ə-; əʔ-; ot-; oʔ-; o-; at-; a-","maquiritaricaceres2011[131]","V","Some verbs show a meaning difference between obj:ə- and obj:ət- (src:maquiritaricaceres2011[132]); there are four Sp verbs which begin with obj:e-, likely a remnant of cogset:refl (src:maquiritaricaceres2011[132])"
@@ -322,14 +322,14 @@ This allomorph was not found with any other verb."
 "tri_t","t","trio1238","tɨ-; t-","triomeira1999[230]","V",
 "tri_13pro","13pro","trio1238","anja","triomeira1999[152]",,
 "tri_3i","3i","trio1238","i-; Ø-","triomeira1999[283]","V","obj:i- also optionally occurs on C-initial verbs with a preverbal P (src:triomeira1999[289])."
-"tri_1a","1sa; 3i","trio1238","wi-; w-","triomeira1999[283]","V",
+"tri_1a","1sa; 3i","trio1238","wi-; w-","triomeira1999[283]","V","causes umlaut"
 "tri_1sa","1a","trio1238","s-; t-","triomeira1999[245]","V",
-"tri_1p","1p; link","trio1238","ji-; j-","triomeira1999[283]","V","src:meira1998proto[80--81] suggests an extension of the _V allomorph obj:j- to _C position, with insertion of /i/, possibly supported by the reanalysis of verb-initial /i/ as belonging to the prefix."
+"tri_1p","1p; link","trio1238","ji-; j-","triomeira1999[283]","V","src:meira1998proto[80--81] suggests an extension of the _V allomorph obj:j- to _C position, with insertion of /i/, possibly supported by the reanalysis of verb-initial /i/ as belonging to the prefix. causes umlaut"
 "tri_2p","2p","trio1238","ə-; a-; o-","triomeira1999[283]","V","causes umlaut"
 "tri_12a","12a; 3i","trio1238","kɨt-; kii-; ke-; k-","triomeira1999[287]","V","causes umlaut"
 "tri_12sa","12a","trio1238","kɨt-; ke-; kɨ-; k-","triomeira1999[292]","V","Lack of umlaut and different C-initial form differentiate it from morph:tri_12a."
 "tri_2sa","2a","trio1238","mɨ-; m-","triomeira1999[291]","V",
-"tri_2a","2a; 3i","trio1238","mi-; m-","triomeira1999[283]","V",
+"tri_2a","2a; 3i","trio1238","mi-; m-","triomeira1999[283]","V","causes umlaut"
 "tri_12",12,"trio1238","kɨ-; k-","triomeira1999[283]","V",
 "tri_detrz","refl; recp","trio1238","ət-; ə-; əəs-; əi-; e-; et-","triomeira1999[254]","V","Some verbs show free variation, but e.g. obj:epɨ ‘to bathe’ is never rc:əipɨ (src:triomeira1999[255--256])."
 "tri_topo","topo","trio1238","-topo; -to","triomeira1999[183]","V",
