@@ -32,15 +32,15 @@
 "apa_ri","ri","apal1257","-rɨ","koehn1986apalai[78]","V",
 "apa_neg","neg_adv","apal1257","-pɨra; -ra","koehn1986apalai[64]","V","obj:-ra after /a/"
 "apa_negnom","neg_nom","apal1257","-pɨnɨ; -pɨ̃","koehn1986apalai[64]","V","unclear if same morpheme, different interpretations (S/A vs S/P pivot)"
-"bak_1a","1a","baka1277","s-; ʃ-","meira2003bakairi[2]","V",
-"bak_1p","1p","baka1277","ɨ-; j-; Ø","meira2003bakairi[2]","V",
-"bak_2a","2a","baka1277","m-","meira2003bakairi[2]","V",
-"bak_2p","2p","baka1277","ə-; o-; Ø","meira2003bakairi[2]","V","obj:ə- + /e/ = /i/"
-"bak_12a","12a","baka1277","kɨd-; kɨz-; kɨdɨ-","meira2003bakairi[2]","V",
-"bak_12",12,"baka1277","kɨ-; k-; ku-","meira2003bakairi[2]","V",
-"bak_3n","3n","baka1277","n-","meira2003bakairi[2]","V",
+"bak_1a","1a","baka1277","s-; ʃ-","meira2003bakairi[2]","V","causes umlaut"
+"bak_1p","1p","baka1277","ɨ-; j-; Ø","meira2003bakairi[2]","V","causes umlaut"
+"bak_2a","2a","baka1277","m-","meira2003bakairi[2]","V","causes umlaut"
+"bak_2p","2p","baka1277","ə-; o-; Ø","meira2003bakairi[2]","V","causes umlaut, obj:ə- + /e/ = /i/"
+"bak_12a","12a","baka1277","kɨd-; kɨz-; kɨdɨ-","meira2003bakairi[2]","V","causes umlaut"
+"bak_12",12,"baka1277","kɨ-; k-; ku-","meira2003bakairi[2]","V","no umlaut"
+"bak_3n","3n","baka1277","n-","meira2003bakairi[2]","V","causes umlaut"
 "bak_3i","3i","baka1277","i-; Ø-","meira2003bakairi[2]","N",
-"bak_1sa","1sa","baka1277","w-","meira2003bakairi[4]","V",
+"bak_1sa","1sa","baka1277","w-","meira2003bakairi[4]","V","no umlaut"
 "bak_1new","12; pnmlz","baka1277","kə̃-; k~-","meira2003bakairi[5]","V",
 "bak_2new","2a; pnmlz","baka1277","mə̃-; m~-","meira2003bakairi[5]","V",
 "bak_12new","12; pnmlz","baka1277","ki~-","meira2003bakairi[5]","V",
@@ -415,3 +415,6 @@ This allomorph was not found with any other verb."
 "apa_1sa","1sa","apal1257","wɨ-; w-; ɨ-; Ø","koehn1986apalai[108]","V","no umlaut"
 "apa_2sa","2a","apal1257","mɨ-; m-","koehn1986apalai[108]","V","no umlaut"
 "apa_12sa","12a","apal1257","sɨ-; s-","koehn1986apalai[108]","V","no umlaut"
+"bak_2sa","2a","baka1277","mɨ-; m-","meira2003bakairi[4]","V","no umlaut"
+"bak_3sa","3n","baka1277","nɨ-; n-","meira2003bakairi[4]","V","no umlaut"
+"bak_12sa","12a","baka1277","kɨd-","meira2003bakairi[4]","V","no umlaut"
