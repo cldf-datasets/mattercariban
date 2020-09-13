@@ -12,17 +12,17 @@
 "aku_2p","2p","akur1238","ə-; o-; a-","meira1998proto[75]","V",
 "aku_1p","1p; link","akur1238","jV-; V-","meira1998proto[75]","V",
 "aku_3s","3n","akur1238","n-; nɨ-","meira1998proto[112--115]","V",
-"apa_3pst","3ky; 3n","apal1257","kɨnɨ-; kɨn-","koehn1986apalai[108]","V",
-"apa_3","3n","apal1257","nɨ-; n-","koehn1986apalai[108]","V",
+"apa_3pst","3ky; 3n","apal1257","kɨnɨ-; kɨn-","koehn1986apalai[108]","V","causes umlaut"
+"apa_3","3n","apal1257","nɨ-; n-","koehn1986apalai[108]","V","causes umlaut"
 "apa_t","t","apal1257","t-","koehn1986apalai[109]","V",
 "apa_13pro","13pro","apal1257","ɨna","koehn1986apalai[95]",,"Bound counterpart: morph:apa_13pre."
 "apa_13pre","13pro","apal1257","ɨna-","koehn1986apalai[95]",,"Free counterpart: morph:apa_13pro."
 "apa_3i","3i","apal1257","i-; Ø-; z-","koehn1986apalai[61]","V","obj:z- before /u/ (src:koehn1986apalai[97])"
-"apa_1a","1sa","apal1257","wɨ-; w-; ɨ-; Ø","koehn1986apalai[108]","V",
-"apa_1p","1p; link","apal1257","jɨ-; j-","koehn1986apalai[108]","V; N",
+"apa_1a","1sa","apal1257","wɨ-; w-; ɨ-; Ø","koehn1986apalai[108]","V","causes umlaut"
+"apa_1p","1p; link","apal1257","jɨ-; j-","koehn1986apalai[108]","V; N","causes umlaut"
 "apa_2p","2p","apal1257","o-; a-","koehn1986apalai[108]","V","causes umlaut"
-"apa_12a","12a","apal1257","sɨ-; s-","koehn1986apalai[108]","V",
-"apa_2a","2a","apal1257","mɨ-; m-","koehn1986apalai[108]","V",
+"apa_12a","12a","apal1257","sɨ-; s-","koehn1986apalai[108]","V","causes umlaut"
+"apa_2a","2a","apal1257","mɨ-; m-","koehn1986apalai[108]","V","causes umlaut"
 "apa_12","uku; link","apal1257","ku-; k-; kɨ-","koehn1986apalai[108]","V","obj:k- before /u/; obj:kɨ- before consonants (src:koehn1965verb[11])."
 "apa_detrz","refl; recp","apal1257","os-; ot-; at-; e-","koehn1986apalai[43]","V",
 "apa_topo","topo","apal1257","-topo","koehn1986apalai[90]","V",
@@ -410,3 +410,8 @@ This allomorph was not found with any other verb."
 "yuk_12pro","NA","yukp1241","ɨp","meira2006syntactic[139]",,
 "ing_1pro","1pro; emp","inga1250","urə","cruz2005fonologia[158]",,
 "ing_2pro","2pro; emp","inga1250","amərə","cruz2005fonologia[158]",,
+"apa_3sa","3n","apal1257","nɨ-; n-","koehn1986apalai[108]","V","no umlaut"
+"apa_3pstsa","3ky; 3n","apal1257","kɨnɨ-; kɨn-","koehn1986apalai[108]","V","no umlaut"
+"apa_1sa","1sa","apal1257","wɨ-; w-; ɨ-; Ø","koehn1986apalai[108]","V","no umlaut"
+"apa_2sa","2a","apal1257","mɨ-; m-","koehn1986apalai[108]","V","no umlaut"
+"apa_12sa","12a","apal1257","sɨ-; s-","koehn1986apalai[108]","V","no umlaut"
