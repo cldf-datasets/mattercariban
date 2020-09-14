@@ -23,7 +23,7 @@
 "apa_2p","2p","apal1257","o-; a-","koehn1986apalai[108]","V","causes umlaut"
 "apa_12a","12a","apal1257","sɨ-; s-","koehn1986apalai[108]","V","causes umlaut"
 "apa_2a","2a","apal1257","mɨ-; m-","koehn1986apalai[108]","V","causes umlaut"
-"apa_12","uku; link","apal1257","ku-; k-; kɨ-","koehn1986apalai[108]","V","obj:k- before /u/; obj:kɨ- before consonants (src:koehn1965verb[11])."
+"apa_12","uku; link","apal1257","ku-; k-; kɨ-","koehn1986apalai[108]","V","obj:k- before /u/; obj:kɨ- before consonants (src:koehn1965verb[11]). causes umlaut"
 "apa_detrz","refl; recp","apal1257","os-; ot-; at-; e-","koehn1986apalai[43]","V",
 "apa_topo","topo","apal1257","-topo","koehn1986apalai[90]","V",
 "apa_agnom","ne","apal1257","-ne","koehn1986apalai[92]","V",
@@ -156,7 +156,7 @@ Even if it had been there at some point, the linker does not leave umlaut traces
 "ikp_1sa_old","1sa","ikpe1245","ɨ-; Ø-","ikpengpacheco2001[209]","V","Only occurs on three Sa verbs."
 "ikp_1p","1p; NA","ikpe1245","ɨ-; g-","alves2013verbo[195]","V; N","also POSS. The /g/ is unexpected, since lg:ikp /g/ usually comes from rc:k. The related lg:arara form is morph:ara_1p. src:meira2005southern[175] suggest a diachronic development whereby an epenthetic [ɣ] is inserted after obj:ɨ-, with subsequent deletion of obj:ɨ- and fortition to /g/. Such a development is attested in some Tupi-Guarani languages."
 "ikp_2p","2p","ikpe1245","o-; a-; w-","alves2013verbo[186]","V; N","obj:a- /_Ca; obj:w- _V"
-"ikp_12a","12a","ikpe1245","kut-; kut͡ʃ-; kur-; kw-","alves2013verbo[195]","V","obj:kw- before /a/ and /o/; obj:kut͡ʃ- before /i/; obj:kur- before vowels (src:alves2013verbo[180]). No umlaut."
+"ikp_12a","12a","ikpe1245","kut-","alves2013verbo[195]","V","obj:kw- before /a/ and /o/; obj:kut͡ʃ- before /i/; obj:kur- before vowels (src:alves2013verbo[180]). No umlaut."
 "ikp_2a","2a","ikpe1245","mi-; me-; m-","alves2013verbo[186]","V","Wrong segmentation as obj:m-iC instead of obj:mi-C."
 "ikp_2sa","2a","ikpe1245","mɨ-; m-","alves2013verbo[186]","V","The form obj:mɨ- only seems to occur with obj:ke/obj:ge ‘to say’."
 "ikp_12","uku; link","ikpe1245","ugw-; wɨ-","pacheco2007morfofonologia[272]","V","Etymology of obj:wɨ- unclear so far."
@@ -168,7 +168,7 @@ Even if it had been there at some point, the linker does not leave umlaut traces
 "ikp_hod","ri","ikpe1245","-lɨ","ikpengpacheco2001[80]","V",
 "ikp_neg","neg_adv","ikpe1245","pra; wa","ikpengpacheco2001[91]","V; N",
 "ikp_3p","3i","ikpe1245","i-; e-; Ø","alves2013verbo[186]","V",
-"ing_3","3n","inga1250","nɨ-; ni-; n-","cruz2005fonologia[249]","V",
+"ing_3","3n","inga1250","nɨ-; n-","cruz2005fonologia[249]","V","Some speakers use a form obj:ni- psrc:cruz2005fonologia[249], but it is unclear whether this is a reflex of cogset:3i or an innovation."
 "ing_13pro","13pro","inga1250","ina","cruz2005fonologia[429]",,
 "ing_3ana","NA","inga1250","an-","cruz2005fonologia[291]","V",
 "ing_3imp","3i","inga1250","i-; Ø-","cruz2005fonologia[291--292]","V",
@@ -287,11 +287,11 @@ This allomorph was not found with any other verb."
 "ara_1a","pek_1a","para1310","j-; ini-; in-","alves2017arara[144]","V","The deletion of final /i/ is lexically conditioned, and not with the same distribution as the allomorphy of morph:ara_12a (src:alves2017arara[145])."
 "ara_1p","1p; link","para1310","j-; ɨ-; ɨw-","alves2017arara[144]","V; N",
 "ara_2p","2p","para1310","o-; ow-","alves2017arara[152]","V; N",
-"ara_12a","12a; 3i","para1310","kud-; kut͡ʃi-; kut-","alves2017arara[58]","V","The deletion of final /i/ is lexically conditioned, and not with the same distribution as the allomorphy of morph:ara_1a (src:alves2017arara[144])."
-"ara_12sa","12a","para1310","kut-; kud-; kun-; kut͡ʃ-","alves2017arara[58]","V",
+"ara_12a","12a; 3i","para1310","kud-; kut͡ʃi-; kut-","alves2017arara[144]","V","The deletion of final /i/ is lexically conditioned, and not with the same distribution as the allomorphy of morph:ara_1a (src:alves2017arara[144])."
+"ara_12sa","12a","para1310","kut-","alves2017arara[58]","V","obj:kut͡ʃ- /_i, obj:kud /_V, obj:kun- /_N psrc:alves2017verbo[58]"
 "ara_2a","2a; 3i","para1310","mi-; m-","alves2017arara[80]","V",
 "ara_2sa","2a","para1310","mɨ-; m-","alves2017arara[80]","V","The form obj:mɨ- only occurs with obj:ke ‘to say’ (src:alves2017arara[150])."
-"ara_12","uku; link","para1310","ugu-; ug-; uk-; ugw-","alves2017arara[151]","V",
+"ara_12","uku; link","para1310","ugu-","alves2017arara[151]","V","obj: ugu- /_CC, velar C, obj: ug- /_V, obj: uk- /_nonvelar C, obj: uŋ- /_N, obj: ugw- with obj:t-adding verbs"
 "ara_detrz","recp","para1310","ot͡ʃi-; ot-; od-; on-","alves2017arara[56]","V",
 "ara_lk","link","para1310","j-","alves2017arara[147]","V; N",
 "ara_1on2","NA","para1310","ko-; kw-; k-; kow-","alves2017arara[58]","V","obj:kw- before /a/; obj:kow- before /o/ and /ɨ/; changes following /e to /i/. possible connection to lg:wayana morph:way_1on2?"
