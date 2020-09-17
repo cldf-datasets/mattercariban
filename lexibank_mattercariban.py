@@ -55,6 +55,7 @@ class Dataset(pylexibank.Dataset):
         Convert the raw data to a CLDF dataset.
         """
         with self.cldf_writer(args) as writer:
+            writer.cldf.add_component('CognatesetTable')
             writer.add_sources(*self.raw_dir.read_bib('cariban_resolved.bib'))
             cmap = writer.add_concepts(lookup_factory=lambda c: c.english)
             cmap['you'] = cmap['thou']
@@ -64,6 +65,11 @@ class Dataset(pylexibank.Dataset):
             data = pycldf.Dataset.from_metadata(self.raw_dir / 'cariban_data.json')
             for lang in data['LanguageTable']:
                 writer.add_language(ID=lang['ID'], Name=lang['Name'])
+
+            cs_seen = set()
+            reconstructions = {
+                tuple(c['ID'].split('-')): c['Form'] for c in
+                self.raw_dir.read_csv('cariban_lexical_reconstructions.csv', dicts=True)}
             for lex in self.raw_dir.read_csv('cariban_swadesh_list.csv', dicts=True):
                 #"Language_ID","Swadesh_Nr","Feature_ID","Value","Cognateset_ID","Source","Comment","Full_Form"
                 for form in writer.add_lexemes(
@@ -73,9 +79,15 @@ class Dataset(pylexibank.Dataset):
                     Source=[Reference(*d) for d in [Sources.parse(lex['Source'].replace(';', ','))]]
                     if lex['Source'] and not lex['Source'].startswith('pc') else [],
                 ):
-                    writer.add_cognate(
-                        lexeme=form,
-                        Cognateset_ID='{}-{}'.format(cmap[lex['Feature_ID']], lex['Cognateset_ID']))
+                    cs_key = (lex['Feature_ID'], lex['Cognateset_ID'])
+                    cs_id = '{}-{}'.format(cmap[cs_key[0]], cs_key[1])
+                    if cs_key not in cs_seen:
+                        writer.objects['CognatesetTable'].append(dict(
+                            ID=cs_id,
+                            Description=reconstructions.get(cs_key),
+                        ))
+                        cs_seen.add(cs_key)
+                    writer.add_cognate(lexeme=form, Cognateset_ID=cs_id)
 
             # Note: We want to re-use LanguageTable across the two CLDF datasets:
             LanguageTable = writer.cldf['LanguageTable']
