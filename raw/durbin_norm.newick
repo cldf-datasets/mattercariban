@@ -1,14 +1,14 @@
 (
 (
-(kax,hix,mak)'Southern Guiana Carib',
-(uxc,bak)'Xingu Basin Carib',
-(car)'Southeastern Colombia Carib'
-)'Southern Carib',
+(kax,hix,mak)'Southern Guiana',
+(uxc,bak)'Xingu Basin',
+(car)'Southeastern Colombia'
+)'Southern',
 (
 ((ara,apia),(ikp,yaru),(pime,palm))'Northern Brazilian',
-((kap,pem,puru,mac),(bona,pxan,cric,wmr,sapa,para),(wai,paux),(aku),(tri,arak,way,apa))'East-West Guiana Carib',
+((kap,pem,puru,mac),(bona,pxan,cric,wmr,sapa,para),(wai,paux),(aku),(tri,arak,way,apa))'East-West Guiana',
 kar,
-(pan,yab,map)'Western Guiana Carib',
-(opon,(yuk,jap)'Sierra de Perijá',(tam,yao,cum)'Venezuelan Coastal Carib')'Coastal Carib'
-)'Northern Carib'
+(pan,yab,map)'Western Guiana',
+(opon,(yuk,jap)'Sierra de Perijá',(tam,yao,cum)'Venezuelan Coastal')'Coastal'
+)'Northern'
 )'Carib';

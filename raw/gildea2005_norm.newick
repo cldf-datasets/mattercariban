@@ -2,41 +2,41 @@
 (
 (
 (
-(mac, pem, kap)'Pemóng Proper Subgroup',
+(mac, pem, kap)'Pemóng Proper SG',
 puru
-)'Pemóng Group',
+)'Pemóng G',
 pan
-)'Pemóng–Panare Macro-Group',
+)'Pemóng–Panare MG',
 (
 map,
 tam,
 cum,
 mak
-)'Mapoyo-Tamanaku Macro-Group'
-)'Venezuelan Branch',
+)'Mapoyo-Tamanaku MG'
+)'Venezuelan B',
 (
-(uxc)'Nahukwa Group',
+(uxc)'Nahukwa G',
 bak,
-(ara,ikp,apia,juma,yaru)'Arara Group'
-)'Southern Branch',
+(ara,ikp,apia,juma,yaru)'Arara G'
+)'Southern B',
 (
-(wmr, bona)'Jawaperi Group',
+(wmr, bona)'Jawaperi G',
 (
 sapa,
-(pxan,para)'Paravilyana Subgroup'
-)'Paravilyana Group'
-)'North Amazonian Branch',
+(pxan,para)'Paravilyana SG'
+)'Paravilyana G'
+)'North Amazonian B',
 (
 kax,
-(wai, hix)'Waiwai SubGroup'
-)'Parukotoan Group',
+(wai, hix)'Waiwai SG'
+)'Parukotoan G',
 (
-(aku, tri)'Tiriyo Subgroup',
+(aku, tri)'Tiriyo SG',
 car
-)'Taranoan Group',
-(way, arak)'Wayana Group',
-(tive, yao)'†Yao Group',
-(yuk,jap)'Yukpa Group',
+)'Taranoan G',
+(way, arak)'Wayana G',
+(tive, yao)'†Yao G',
+(yuk,jap)'Yukpa G',
 apa,
 kar,
 opon,
