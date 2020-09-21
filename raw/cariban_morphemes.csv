@@ -17,7 +17,7 @@
 "apa_t","t","apal1257","t-","koehn1986apalai[109]","V",
 "apa_13pro","13pro","apal1257","ɨna","koehn1986apalai[95]",,"Bound counterpart: morph:apa_13pre."
 "apa_13pre","13pro","apal1257","ɨna-","koehn1986apalai[95]",,"Free counterpart: morph:apa_13pro."
-"apa_3i","3i","apal1257","i-; Ø-; z-","koehn1986apalai[61]","V","obj:z- before /u/ (src:koehn1986apalai[97])"
+"apa_3i","3i","apal1257","i-; z-; Ø","koehn1986apalai[61]","V","obj:z- before /u/ (src:koehn1986apalai[97])"
 "apa_1a","1sa","apal1257","wɨ-; w-; ɨ-; Ø","koehn1986apalai[108]","V","causes umlaut"
 "apa_1p","1p; link","apal1257","jɨ-; j-","koehn1986apalai[108]","V; N","causes umlaut"
 "apa_2p","2p","apal1257","o-; a-","koehn1986apalai[108]","V","causes umlaut"
@@ -39,7 +39,7 @@
 "bak_12a","12a","baka1277","kɨd-; kɨz-; kɨdɨ-","meira2003bakairi[2]","V","causes umlaut"
 "bak_12",12,"baka1277","kɨ-; k-; ku-","meira2003bakairi[2]","V","no umlaut"
 "bak_3n","3n","baka1277","n-","meira2003bakairi[2]","V","causes umlaut"
-"bak_3i","3i","baka1277","i-; Ø-","meira2003bakairi[2]","N",
+"bak_3i","3i","baka1277","i-; Ø","meira2003bakairi[2]","N",
 "bak_1sa","1sa","baka1277","w-","meira2003bakairi[4]","V","no umlaut"
 "bak_1new","12; pnmlz","baka1277","kə̃-; k~-","meira2003bakairi[5]","V",
 "bak_2new","2a; pnmlz","baka1277","mə̃-; m~-","meira2003bakairi[5]","V",
@@ -78,9 +78,9 @@
 "pan_3iw","3i; wnmlz","enap1235","jɨ-; jɨw-; jo-; ju-; ji-; i-","panarepayne2013[236]","V",
 "pan_1a","1a","enap1235","tɨ-; t-","panarepayne2013[203]","V","The form given in src:panarepayne2013[201] is obj:ti-, but that is inaccurate."
 "pan_1sa","1sa","enap1235","w-; wɨ-","panarepayne2013[198]","V",
-"pan_1p","link","enap1235","Ø-; j-","panarepayne2013[200--201]","V","Triggers stress shift."
+"pan_1p","link","enap1235","j-; Ø","panarepayne2013[200--201]","V","Triggers stress shift."
 "pan_1w","wnmlz","enap1235","wɨ-; w-","panarepayne2013[236]","V",
-"pan_1sp","link","enap1235","Ø-; j-","mattei1994diccionario","V","Not sure if this triggers stress shift, would make it formally identical to morph:pan_1p"
+"pan_1sp","link","enap1235","j-; Ø","mattei1994diccionario","V","Not sure if this triggers stress shift, would make it formally identical to morph:pan_1p"
 "pan_2p","2p; link","enap1235","aj-; a-","panarepayne2013[201]","V",
 "pan_2w","2p; wnmlz","enap1235","aw-; o-","panarepayne2013[236]","V",
 "pan_2a","2a","enap1235","mɨ-; m-","panarepayne2013[186]","V","Occurs with morph:pan_1p in 2>1 scenarios. The transitive form given in src:panarepayne2013[201] is obj:mi-, but that is inaccurate."
@@ -102,7 +102,7 @@
 "kar_3sa","3n","gali1262","n-","courtz2008carib[78]","V","no umlaut"
 "kar_3","3n; 3i","gali1262","ni-; n-","courtz2008carib[78]","V","causes umlaut"
 "kar_13pro","13pro","gali1262","(n)aʔna","courtz2008carib[53]",,
-"kar_3i","3i","gali1262","i-; Ø-","courtz2008carib[90]","V","With the cons:kar_psthab, there is dialectal variation. src:hoff1968carib[161] documents past habitual forms without obj:i-."
+"kar_3i","3i","gali1262","i-; Ø","courtz2008carib[90]","V","With the cons:kar_psthab, there is dialectal variation. src:hoff1968carib[161] documents past habitual forms without obj:i-."
 "kar_1a","1a; 3i","gali1262","si-; s-","courtz2008carib","V","causes umlaut"
 "kar_1sa","1sa","gali1262","w-","courtz2008carib","V",
 "kar_1p","1p; link","gali1262","ɨj-; ɨ-","courtz2008carib","V","causes umlaut. The form given here is a Proto-lg:kalina form, as modern varieties have either deleted initial /ɨ/, or undergone metathesis of /ɨ/ and /j/."
@@ -120,11 +120,11 @@
 "kar_inf","inf","gali1262","-no","courtz2008carib[96--97]","V","can combine with obj:poko; TR or INTR"
 "kar_ri","ri","gali1262","-rɨ","courtz2008carib[95","V",
 "kar_neg","neg_adv","gali1262","-ʔpa","courtz2008carib[126--127","V",
-"hix_3","3n","hixk1239","nɨ-; n-; Ø-","hixkaryanaderby1985[189]","V","causes umlaut; 3>3 is deleted phrase-initially _C"
-"hix_3sa","3n","hixk1239","nɨ-; n-; Ø-","hixkaryanaderby1985[189]","V","no umlaut; 3>3 is deleted phrase-initially _C"
+"hix_3","3n","hixk1239","nɨ-; n-; Ø","hixkaryanaderby1985[189]","V","causes umlaut; 3>3 is deleted phrase-initially _C"
+"hix_3sa","3n","hixk1239","nɨ-; n-; Ø","hixkaryanaderby1985[189]","V","no umlaut; 3>3 is deleted phrase-initially _C"
 "hix_t","t","hixk1239","t-; t͡ʃ-; s-","hixkaryanaderby1985[192]","V",
 "hix_13pro","13pro","hixk1239","amna","hixkaryanaderby1985[190]",,
-"hix_3i","3i","hixk1239","ɨ-; Ø-","hixkaryanaderby1985[194]","V",
+"hix_3i","3i","hixk1239","ɨ-; Ø","hixkaryanaderby1985[194]","V",
 "hix_1a","1sa","hixk1239","ɨ-; w-","hixkaryanaderby1985[188]","V","causes umlaut"
 "hix_1s",12,"hixk1239","kɨ-; k-","hixkaryanaderby1985[188]","V",
 "hix_1p","emp","hixk1239","ro-; r-","hixkaryanaderby1985[188]","V","no umlaut. Given the presence of the linker morph:hix_lk, it is somewhat surprising that this prefix is not obj:roj-/obj:ro-:
@@ -147,13 +147,13 @@ Even if it had been there at some point, the linker does not leave umlaut traces
 "hix_ri","ri","hixk1239","-nɨrɨ; -rɨ","hixkaryanaderby1985[230]","V",
 "hix_neg","neg_adv","hixk1239","-hɨra; -hra","hixkaryanaderby1985[239--240]","V; N; ADV",
 "hix_negnom","neg_nom","hixk1239","-hɨnɨ; -hnɨ","hixkaryanaderby1985[233]","V",
-"ikp_3sa","NA","ikpe1245","Ø-","alves2013verbo[169]","V",
+"ikp_3sa","NA","ikpe1245","Ø","alves2013verbo[169]","V",
 "ikp_t","t","ikpe1245","tɨ-; t-","alves2013verbo[186]","V",
 "ikp_13pro","13pro","ikpe1245","t͡ʃimna","ikpengpacheco2001[119]",,
 "ikp_3sp","3i","ikpe1245","i-; j-; Ø","ikpengpacheco2001[52]","V",
 "ikp_1sa",12,"ikpe1245","k-","alves2013verbo[205]","V",
 "ikp_1a","NA; pek_1a","ikpe1245","ji-; je-; j-; in-","alves2013verbo[195]","V","obj:in- is only attested by other authors; the etymology of obj:je- is unclear"
-"ikp_1sa_old","1sa","ikpe1245","ɨ-; Ø-","ikpengpacheco2001[209]","V","Only occurs on three Sa verbs."
+"ikp_1sa_old","1sa","ikpe1245","ɨ-; Ø","ikpengpacheco2001[209]","V","Only occurs on three Sa verbs."
 "ikp_1p","1p; NA","ikpe1245","ɨ-; g-","alves2013verbo[195]","V; N","also POSS. The /g/ is unexpected, since lg:ikp /g/ usually comes from rc:k. The related lg:arara form is morph:ara_1p. src:meira2005southern[175] suggest a diachronic development whereby an epenthetic [ɣ] is inserted after obj:ɨ-, with subsequent deletion of obj:ɨ- and fortition to /g/. Such a development is attested in some Tupi-Guarani languages."
 "ikp_2p","2p","ikpe1245","o-; a-; w-","alves2013verbo[186]","V; N","obj:a- /_Ca; obj:w- _V"
 "ikp_12a","12a","ikpe1245","kut-","alves2013verbo[195]","V","obj:kw- before /a/ and /o/; obj:kut͡ʃ- before /i/; obj:kur- before vowels (src:alves2013verbo[180]). No umlaut."
@@ -171,7 +171,7 @@ Even if it had been there at some point, the linker does not leave umlaut traces
 "ing_3","3n","inga1250","nɨ-; n-","cruz2005fonologia[249]","V","Some speakers use a form obj:ni- psrc:cruz2005fonologia[249], but it is unclear whether this is a reflex of cogset:3i or an innovation."
 "ing_13pro","13pro","inga1250","ina","cruz2005fonologia[429]",,
 "ing_3ana","NA","inga1250","an-","cruz2005fonologia[291]","V",
-"ing_3imp","3i","inga1250","i-; Ø-","cruz2005fonologia[291--292]","V",
+"ing_3imp","3i","inga1250","i-; Ø","cruz2005fonologia[291--292]","V",
 "ing_3i","3i; link","inga1250","i-; j-","cruz2005fonologia[146]","V",
 "ing_3iw","3i; wnmlz","inga1250","ij-; i-; j-","cruz2005fonologia[146]","V","For a similar development of rc:i-w- in Taranoan, see src:meira1998proto[39--40]"
 "ing_1a","1a","inga1250","tɨ-; t-","cruz2005fonologia[263]","V",
@@ -193,7 +193,7 @@ Even if it had been there at some point, the linker does not leave umlaut traces
 "ing_sup","sup","inga1250","-seʔna","cruz2005fonologia[282]","V",
 "ing_inf","inf","inga1250","-n","cruz2005fonologia[212]","V",
 "ing_ri","ri","inga1250","Ø","gildea1998","V",
-"kax_3i","3i","kaxu1237","i-; Ø-","schuring2018kaxuyana[70]","V; N","causes umlaut"
+"kax_3i","3i","kaxu1237","i-; Ø","schuring2018kaxuyana[70]","V; N","causes umlaut"
 "kax_3t","t","kaxu1237","tɨ-; t-; t͡ʃ-","schuring2018kaxuyana[46]","V",
 "kax_topo","topo","kaxu1237","-toho","gildea1998[120]","V",
 "kax_agnom","ne","kaxu1237","-ne","schuring2018kaxuyana[46]","V",
@@ -219,9 +219,9 @@ Even if it had been there at some point, the linker does not leave umlaut traces
 "kax12w","12; wnmlz","kaxu1237","kuw-; kɨw-","pc[Spike Gildea]","V",
 "kui_t","t","kuik1246","tɨ-; t-","kuikurodossantos2007[241]","V",
 "kui_13","NA","kuik1246","tis-; ti-","franchetto1986kuikuro[158]","V; P","Has a free counterpart obj:tisuɣe. Triggers umlaut (src:kuikurodossantos2007[76])."
-"kui_3i","3i","kuik1246","i-; Ø-; iɲ-","franchetto1986kuikuro[158]","V",
+"kui_3i","3i","kuik1246","i-; iɲ-; Ø","franchetto1986kuikuro[158]","V",
 "kui_1p","1p","kuik1246","u-","franchetto1986kuikuro[158]","V; N",
-"kui_2p","2p","kuik1246","e-; o-; a-; Ø-","franchetto1986kuikuro[158]","V; N",
+"kui_2p","2p","kuik1246","e-; o-; a-; Ø","franchetto1986kuikuro[158]","V; N",
 "kui_12","uku; link","kuik1246","kuk-; ku-; k-","kuikurodossantos2007[72]","V; N",
 "kui_detrz","recp","kuik1246","at-; ot-; et-; t-; aɣ-; oɣ-; eɣ-; ɣ-; am-; om-; em-; m-","kuikurodossantos2007[161]","V","First person morph:kui_1p deletes the vowel. For second person morph:kui_2p, one can assume vowel harmony with subsequent deletion, while third person morph:kui_3i is zero with no vowel deletion, resulting in identical forms obj:at-/obj:et- etc. /ɣ/ is from rc:r and can be assumed to have arisen from rc:t > rc:r. The origins of /m/ are unclear."
 "kui_topo","topo","kuik1246","-toho; -t͡soho","franchetto1986kuikuro[209]","V",
@@ -231,10 +231,10 @@ Even if it had been there at some point, the linker does not leave umlaut traces
 "kui_neg","neg_adv","kuik1246","-la","kuikurodossantos2007[90]","V; N",
 "kui_negnom","neg_nom","kuik1246","-hɨŋɨ","kuikurodossantos2007[137]","V; N",
 "mac_13pro","13pro","macu1259","anna","macushiabbott1991[38]",,
-"mac_3i","3i","macu1259","i-; Ø-; j-","macushiabbott1991[101]","V",
+"mac_3i","3i","macu1259","i-; j-; Ø","macushiabbott1991[101]","V",
 "mac_3s","3i; NA","macu1259","aw-; V-; i-","macushiabbott1991[101]","V","The origins of obj:aw- and obj:V- are unclear."
 "mac_1p","1p; link","macu1259","uj-; u-","macushiabbott1991[101]","V; N",
-"mac_1s","1p","macu1259","u-; Ø-","macushiabbott1991[101]","V",
+"mac_1s","1p","macu1259","u-; Ø","macushiabbott1991[101]","V",
 "mac_2p","2p; link","macu1259","aj-; a-; V-","macushiabbott1991[101]","V; N",
 "mac_2s","2p; wnmlz","macu1259","aw-; a-","macushiabbott1991[101]","V",
 "mac_detrz","recp","macu1259","at-; es-; eʔ-","macushiabbott1991[37]","V",
@@ -261,7 +261,7 @@ Even if it had been there at some point, the linker does not leave umlaut traces
 "mak_12sa","12a","maqu1238","kV-; k-","maquiritaricaceres2011","V",
 "mak_1a","1sa; 3i","maqu1238","wi-; w-","maquiritaricaceres2011[179]","V","causes umlaut"
 "mak_1sa","1sa","maqu1238","w-","maquiritaricaceres2011[179]","V","no umlaut"
-"mak_1p","1p; link","maqu1238","j-; ɨ-; Ø-","maquiritaricaceres2011[186--187]","V; N","causes umlaut"
+"mak_1p","1p; link","maqu1238","j-; ɨ-; Ø","maquiritaricaceres2011[186--187]","V; N","causes umlaut"
 "mak_2p","2p; link","maqu1238","ə-; a-; o-; aj-; oj-","maquiritaricaceres2011[188]","V; N","causes umlaut"
 "mak_12a","12a; 3i","maqu1238","kii-; ki-; kV-; k-","maquiritaricaceres2011[181]","V","causes umlaut"
 "mak_2a","2a; 3i","maqu1238","mi-; m-","maquiritaricaceres2011[180]","V","causes umlaut"
@@ -279,9 +279,9 @@ Even if it had been there at some point, the linker does not leave umlaut traces
 "ara_t","t","para1310","tɨ-; t-","alves2017arara[156]","V",
 "ara_3int","3n; 3i; 3m","para1310","moni-; mon-","alves2017arara[155]","V","There are no examples of V-initial transitive or C-initial intransitive verbs, but the form is always given as obj:mon(i)-"
 "ara_13pro","13pro","para1310","t͡ʃimna","alves2017arara[54]",,
-"ara_3i","3i","para1310","i-; Ø-","alves2017arara[146]","V","This is the third person Sp marker. It seems to have a lexically conditioned allomorph obj:ju- with the verb obj:page ‘to wake up’: ex:ara-43
+"ara_3i","3i","para1310","i-; Ø","alves2017arara[146]","V","This is the third person Sp marker. It seems to have a lexically conditioned allomorph obj:ju- with the verb obj:page ‘to wake up’: ex:ara-43
 This allomorph was not found with any other verb."
-"ara_3zero","NA","para1310","Ø-","alves2017arara[146]","V","This is the third person Sa marker."
+"ara_3zero","NA","para1310","Ø","alves2017arara[146]","V","This is the third person Sa marker."
 "ara_1sa","1sa","para1310","wɨ-; w-","alves2017arara[149]","V",
 "ara_1sa1",12,"para1310","k-","alves2017arara[149]","V",
 "ara_1a","pek_1a","para1310","j-; ini-; in-","alves2017arara[144]","V","The deletion of final /i/ is lexically conditioned, and not with the same distribution as the allomorphy of morph:ara_12a (src:alves2017arara[145])."
@@ -305,10 +305,10 @@ This allomorph was not found with any other verb."
 "pem_2sw","2p; wnmlz","pemo1248","aw-; au-","mosonyi2000pemon[521]","V",
 "pem_2p","2p; link","pemo1248","aj-; a-","swiggers2010gramatica[184]","V",
 "pem_3i","3i","pemo1248","ij-; i-","swiggers2010gramatica[127]","V",
-"pem_1s","NA","pemo1248","Ø-","swiggers2010gramatica[153]","V",
+"pem_1s","NA","pemo1248","Ø","swiggers2010gramatica[153]","V",
 "pem_3n","3n","pemo1248","nV-; n-","swiggers2010gramatica[149]","V",
 "pem_2s","2a","pemo1248","mV-; m-","swiggers2010gramatica[149]","V",
-"pem_1s_new","NA","pemo1248","Ø-","swiggers2010gramatica[149]","V",
+"pem_1s_new","NA","pemo1248","Ø","swiggers2010gramatica[149]","V",
 "pem_1a","1a","pemo1248","sV-; s-","swiggers2010gramatica[149]","V",
 "pem_topo","topo","pemo1248","-toʔ","swiggers2010gramatica[201]","V",
 "pem_agnom","ne","pemo1248","-nin","swiggers2010gramatica[107]","V",
@@ -321,7 +321,7 @@ This allomorph was not found with any other verb."
 "tri_3","3n; 3i","trio1238","ni-; n-","triomeira1999[283]","V","causes umlaut"
 "tri_t","t","trio1238","tɨ-; t-","triomeira1999[230]","V",
 "tri_13pro","13pro","trio1238","anja","triomeira1999[152]",,
-"tri_3i","3i","trio1238","i-; Ø-","triomeira1999[283]","V","obj:i- also optionally occurs on C-initial verbs with a preverbal P (src:triomeira1999[289])."
+"tri_3i","3i","trio1238","i-; Ø","triomeira1999[283]","V","obj:i- also optionally occurs on C-initial verbs with a preverbal P (src:triomeira1999[289])."
 "tri_1a","1sa; 3i","trio1238","wi-; w-","triomeira1999[283]","V","causes umlaut"
 "tri_1sa","1a","trio1238","s-; t-","triomeira1999[245]","V",
 "tri_1p","1p; link","trio1238","ji-; j-","triomeira1999[283]","V","src:meira1998proto[80--81] suggests an extension of the _V allomorph obj:j- to _C position, with insertion of /i/, possibly supported by the reanalysis of verb-initial /i/ as belonging to the prefix. causes umlaut"
@@ -354,11 +354,11 @@ This allomorph was not found with any other verb."
 "wmr_3ka","NA","waim1253","ka","waimiribruno2003[80]",,
 "wmr_topo","topo","waim1253","-tɨpɨ","waimiribruno2003[104]","V",
 "wmr_sup","sup","waim1253","-se","waimiribruno2003[71]","V",
-"wai_3","3n","waiw1244","nɨ-; n-; Ø-","waiwaihawkins1998[178]","V",
+"wai_3","3n","waiw1244","nɨ-; n-; Ø","waiwaihawkins1998[178]","V",
 "wai_t","t","waiw1244","tɨ-; t-; t͡ʃ-","waiwaihawkins1998[192]","V",
 "wai_13pro","13pro","waiw1244","amna","waiwaihawkins1998[97]",,
-"wai_3i","3i","waiw1244","i-; jɨ-; Ø-","waiwaihawkins1998[178]","V",
-"wai_1a","1sa","waiw1244","wɨ-; w-; Ø-","waiwaihawkins1998[178]","V",
+"wai_3i","3i","waiw1244","i-; jɨ-; Ø","waiwaihawkins1998[178]","V",
+"wai_1a","1sa","waiw1244","wɨ-; w-; Ø","waiwaihawkins1998[178]","V",
 "wai_1p","emp; link","waiw1244","oj-; o-","waiwaihawkins1998[180]","V; N",
 "wai_2p","2p","waiw1244","aw-; a-","waiwaihawkins1998[180]","V; N","The origins of /w/ are unclear."
 "wai_12a","12a","waiw1244","tɨtɨ-; tɨt-; tɨ-; t-","waiwaihawkins1998[178]","V",
@@ -384,7 +384,7 @@ This allomorph was not found with any other verb."
 "way_3sa_rem","3ky; 3n; 3i","waya1269","kuni-; kun-","wayanatavares2005[216]","V","likely no umlaut"
 "way_3_rem","3ky; 3n; 3i","waya1269","kuni-; kun-","wayanatavares2005[216]","V","likely causes umlaut"
 "way_13pro","13pro","waya1269","emna","wayanatavares2005[433]",,
-"way_3i","3i","waya1269","i-; Ø-","wayanatavares2005[227]","V",
+"way_3i","3i","waya1269","i-; Ø","wayanatavares2005[227]","V",
 "way_1sa","1sa","waya1269","w-; wɨ-","wayanatavares2005[206]","V",
 "way_1a","1sa; 3i","waya1269","wi-; w-","wayanatavares2005[206]","V","causes umlaut"
 "way_1p","1p; link","waya1269","ɨ-; j-","wayanatavares2005[206]","V; N","causes umlaut"
@@ -403,7 +403,7 @@ This allomorph was not found with any other verb."
 "way_ri","ri","waya1269","Ø","gildea1998","V",
 "way_neg","neg_adv","waya1269","-ra","wayanatavares2005[234--235]","V; ADV",
 "way_negnom","neg_nom","waya1269","-pɨnɨ","wayanatavares2005[176--177]","N","with general modifier obj:-tə when with verbs"
-"yuk_1p","link","yukp1241","j-; Ø-","meira2006syntactic[139]","V","No trace of cogset:1p."
+"yuk_1p","link","yukp1241","j-; Ø","meira2006syntactic[139]","V","No trace of cogset:1p."
 "yuk_2p","2p; link","yukp1241","oj-","meira2006syntactic[139]","V",
 "yuk_2a","2a","yukp1241","mɨ-; m-","meira2006syntactic[139]","V",
 "yuk_3n","3n","yukp1241","nɨ-; n-","meira2006syntactic[139]","V",
