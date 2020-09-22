@@ -1,13 +1,13 @@
 "ID","Cognateset_ID","Language_ID","Form","Source","Host","Comment"
 "aku_1k",12,"akur1238","kɨ-; k-","meira1998proto[111]","V",
-"aku_1t","1a","akur1238","t-; t͡ʃ-","meira1998proto[111]","V",
-"aku_1w","1sa","akur1238","wɨ-; w-; Ø","meira1998proto[111]","V",
+"aku_1t","1a","akur1238","t͡ʃ-","meira1998proto[111]","V","src:meira1998proto also lists obj:t- as occurring /_ə, but there are no examples; it is a likely lg:trio influence."
+"aku_1w","1sa","akur1238","wɨ-; w-; Ø; ə-","meira1998proto[111]; gildea1994akuriyo","V",
 "aku_1a","3i","akur1238","wi-; w-; i-; Ø","meira1998proto[111]; gildea1994akuriyo","V","causes umlaut, shows variation as to loss of obj:w"
 "aku_12",12,"akur1238","kɨ-; k-","meira1998proto[103]","V","no umlaut"
 "aku_2a","2a; 3i","akur1238","mi-; m-","meira1998proto[101]","V","causes umlaut"
 "aku_2sa","2a","akur1238","mɨ-; m-","meira1998proto[112]","V","no umlaut"
-"aku_12sa","12a","akur1238","kɨt-; kɨ-; kɨh-; kV-","meira1998proto[112--115]","V","no umlaut"
-"aku_12a","12a; 3i","akur1238","kəʔi-; kɨʔi-; kəʔ-; kɨt-","meira1998proto[101]","V","causes umlaut"
+"aku_12sa","12a","akur1238","kɨt-; kəʔ-","meira1998proto[112--115]; gildea1994akuriyo","V","no umlaut; additional reduced forms found in src:gildea1994akuriyo are obj:kə-, and obj:k(e)- /_e."
+"aku_12a","12a; 3i","akur1238","kəʔi-; kəʔ-; kɨt-","meira1998proto[101]; gildea1994akuriyo","V","causes umlaut; additional forms in src:gildea1994akuriyo are obj:ke-, obj:k- /_e, as well as lg:trio-looking obj:ki(i)- and a reduced obj:kəʔi-: obj:kəi-. obj:kəʔi- also occurs as obj:kɨʔi-, which is likely more conservative"
 "aku_3a","3n; 3i","akur1238","ni-; n-","meira1998proto[104]","V","causes umlaut"
 "aku_2p","2p","akur1238","ə-; o-; a-","meira1998proto[75]","V","causes umlaut"
 "aku_1p","1p; link","akur1238","jV-; V-","meira1998proto[75]","V","causes umlaut"
