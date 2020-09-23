@@ -19,13 +19,13 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/mattercariban",
-            "dc:created": "b94e6bf"
+            "dc:created": "19928ec"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Glottolog",
             "rdf:about": "https://github.com/glottolog/glottolog",
-            "dc:created": "v4.2.1-28-g8701a9c"
+            "dc:created": "v4.2.1-30-ga962611"
         },
         {
             "rdf:type": "prov:Entity",
