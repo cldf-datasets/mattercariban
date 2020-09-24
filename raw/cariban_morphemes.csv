@@ -56,15 +56,15 @@
 "pc_13pro","13pro","cari1283","(ap)ina","meira2002first","V",
 "pc_3i","3i","cari1283","i-","meira2010origin","V",
 "pc_3pro","3pro","cari1283","(i)nərə","meira2002first[268]",,
-"pc_3n","3n","cari1283","n-","meira2010origin","V","Potentially from cogset:3pro."
+"pc_3n","3n; 3i","cari1283","ni-","meira2010origin","V","Potentially from cogset:3pro."
 "pc_t","t","cari1283","tɨ-; t-","gildea2007greenberg[29]","V",
-"pc_1a","1a","cari1283","t-","gildea1998","V",
+"pc_1a","1a; 3i","cari1283","ti-","gildea1998","V",
 "pc_1sa","1sa","cari1283","w-","gildea1998","V",
-"pc_1p","1p","cari1283","u-","meira2010origin","V",
+"pc_1p","1p; link","cari1283","uj-","meira2010origin","V",
 "pc_1pro","1pro","cari1283","(ə)wɨ","meira2010origin[514]",0,"Some languages added an element rc:-rə."
-"pc_2p","2p","cari1283","ə-","meira2010origin","V",
-"pc_12a","12a","cari1283","kɨt-","gildea1998","V",
-"pc_2a","2a","cari1283","m-","gildea1998","V",
+"pc_2p","2p; link","cari1283","əj-","meira2010origin","V",
+"pc_12a","12a; 3i","cari1283","kɨti-","gildea1998","V",
+"pc_2a","2a; 3i","cari1283","mi-","gildea1998","V",
 "pc_12",12,"cari1283","k-","gildea1998","V",
 "pc_refl","refl","cari1283","e-","meira2010origin[511]","V",
 "pc_recp","recp","cari1283","əte-","meira2010origin[511]","V",
@@ -420,3 +420,6 @@ This allomorph was not found with any other verb."
 "bak_12sa","12a","baka1277","kɨd-","meira2003bakairi[4]","V","no umlaut"
 "hix_1sa","1sa","hixk1239","ɨ-; w-","hixkaryanaderby1985[188]","V","no umlaut"
 "yuk_1on3","NA","yukp1241","Ø","meira2006syntactic[139]","V","likely from loss of cogset:1sa"
+"pc_12sa","12a","cari1283","kɨt-","gildea1998","V",
+"pc_3sa","3n","cari1283","n-","gildea1998","V",
+"pc_2sa","2a","cari1283","m-","gildea1998","V",
