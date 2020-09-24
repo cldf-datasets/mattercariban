@@ -1,25 +1,25 @@
 ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family
-apa,Apalaí,,,,,,,
-tri,Tiriyó,,,,,,,
-hix,Hixkaryána,,,,,,,
-pan,Panare,,,,,,,
-mac,Macushi,,,,,,,
-wmr,Waimiri-Atroari,,,,,,,
-mak,Ye'kwana,,,,,,,
-wai,Waiwai,,,,,,,
-way,Wayana,,,,,,,
-kar,Kari'ña,,,,,,,
-ikp,Ikpeng,,,,,,,
-ara,Arara,,,,,,,
-ing,Ingarikó,,,,,,,
-pem,Pemón,,,,,,,
-kui,Kuikuro,,,,,,,
-yuk,Yukpa,,,,,,,
-car,Carijona,,,,,,,
-bak,Bakairi,,,,,,,
-tam,Tamanaku,,,,,,,
-kax,Werikyana,,,,,,,
-aku,Akuriyó,,,,,,,
-aka,Akawaio,,,,,,,
-map,Mapoyo,,,,,,,
-yab,Yawarana,,,,,,,
+apa,Apalaí,apal1257,Apalaí,apy,South America,1.49792,-54.7457,Cariban
+tri,Tiriyó,trio1238,Trió,tri,South America,2.53616,-55.7599,Cariban
+hix,Hixkaryána,hixk1239,Hixkaryána,hix,South America,-0.16265,-58.80153,Cariban
+pan,Panare,enap1235,Panare,pbh,South America,6.95035,-65.8483,Cariban
+mac,Macushi,macu1259,Macushi,mbc,South America,4.31861,-60.2209,Cariban
+wmr,Waimiri-Atroari,waim1253,Waimiri-Atroari,atr,South America,-0.61832,-60.4259,Cariban
+mak,Ye'kwana,maqu1238,Maquiritari,mch,South America,4.70705,-64.3877,Cariban
+wai,Waiwai,waiw1244,Waiwai,waw,South America,1.50881,-59.1417,Cariban
+way,Wayana,waya1269,Wayana,way,South America,2.77537,-54.4429,Cariban
+kar,Kari'ña,gali1262,Galibi Carib,car,South America,5.83772,-56.8323,Cariban
+ikp,Ikpeng,ikpe1245,Ikpeng,txi,South America,-11.37822,-53.49553,Cariban
+ara,Arara,para1310,Pará Arára,aap,South America,-3.71263,-53.0657,Cariban
+ing,Ingarikó,inga1250,Ingariko,,South America,,,Cariban
+pem,Pemón,pemo1248,Pemon,aoc,South America,4.97031,-61.4033,Cariban
+kui,Kuikuro,kuik1246,Kuikúro-Kalapálo,kui,South America,-12.3035,-53.2261,Cariban
+yuk,Yukpa,yukp1241,Yukpa,yup,South America,9.67534,-73.0557,Cariban
+car,Carijona,cari1279,Carijona,cbd,South America,1.21894,-72.0664,Cariban
+bak,Bakairi,baka1277,Bakairí,bkq,South America,-14.2628,-54.7034,Cariban
+tam,Tamanaku,tama1338,Tamanaku,tmz,South America,2.765,-65.883,Cariban
+kax,Werikyana,kaxu1237,Kaxuiâna,kbb,South America,2.17138,-55.9101,Cariban
+aku,Akuriyó,akur1238,Akurio,ako,South America,3.19607,-55.6294,Cariban
+aka,Akawaio,akaw1239,Akawaio,ake,South America,6.16277,-60.862,Cariban
+map,Mapoyo,mapo1246,Mapoyo,mcg,South America,5.96952,-67.2581,Cariban
+yab,Yawarana,yaba1248,Yabarana,yar,South America,5.32692,-66.276,Cariban

@@ -65,7 +65,7 @@ class Dataset(pylexibank.Dataset):
             cmap['son'] = cmap['person']
             data = pycldf.Dataset.from_metadata(self.raw_dir / 'cariban_data.json')
             for lang in data['LanguageTable']:
-                writer.add_language(ID=lang['ID'], Name=lang['Name'])
+                writer.add_language(ID=lang['ID'], Name=lang['Name'], Glottocode=lang["Glottocode"])
 
             cs_seen = set()
             reconstructions = {
