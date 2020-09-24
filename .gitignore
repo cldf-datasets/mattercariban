@@ -63,3 +63,5 @@ ENV/
 .idea/
 .DS_store
 
+# libreoffice
+.~lock.*
