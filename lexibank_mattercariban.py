@@ -27,7 +27,8 @@ class Dataset(pylexibank.Dataset):
         brackets={"(": ")"},  # characters that function as brackets
         separators=";/,",  # characters that split forms e.g. "a, b".
         missing_data=('?', '-'),  # characters that denote missing data.
-        strip_inside_brackets=True   # do you want data removed in brackets or not?
+        strip_inside_brackets=True,   # do you want data removed in brackets or not?
+        replacements=[("-", "")]
     )
 
     def cldf_specs(self):
