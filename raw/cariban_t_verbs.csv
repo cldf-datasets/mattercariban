@@ -52,7 +52,7 @@
 52,7,"apal1257","paʔ","throw (out)","camargo2002lexico[74]","n","shows obj:i-"
 53,8,"maqu1238","hətɨ","collect fruit","maquiritaricaceres2011[127]","y",
 54,8,"trio1238","pə(tɨ)","gather (fruit)","triomeira1999[234]","y",
-55,8,"waya1269","upətɨ","pick fruit","wayanatavares2005[446]","?","Only example with -Ø, of which no other examples with t- occur…"
+55,8,"waya1269","upətɨ","pick fruit","wayanatavares2005[446]","?","Only example with -Ø, of which no other examples with obj:t- occur."
 56,8,"gali1262","potɨ","pick","courtz2008carib[351]","n",
 57,8,"hixk1239","hoht","pick (fruit)","hixkaryanaderby1985[67]","n","Uncertain form; only occurs in non-segmented example. Likely does not take obj:t-."
 58,9,"enap1235","ɨpɨ","bathe","panarepayne2013[244]","n",
@@ -194,3 +194,4 @@
 224,11,"kaxu1237","jo","cook","pc[Spike Gildea]","y",
 225,3,"waya1269","əwu","take out","camargo2010wayana[38]","y",
 226,7,"waya1269","upapɨ","throw out","camargo2010wayana[52]","n",
+227,40,"maqu1238","u(tu)","give","maquiritaricaceres2011[77]","n",
