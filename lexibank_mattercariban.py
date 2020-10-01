@@ -73,6 +73,9 @@ class Dataset(pylexibank.Dataset):
                 self.raw_dir.read_csv('cariban_lexical_reconstructions.csv', dicts=True)}
             for lex in self.raw_dir.read_csv('cariban_swadesh_list.csv', dicts=True):
                 #"Language_ID","Swadesh_Nr","Feature_ID","Value","Cognateset_ID","Source","Comment","Full_Form"
+                if lex['Feature_ID'] not in cmap:
+                    print(lex['Feature_ID'])
+                    continue
                 for form in writer.add_lexemes(
                     Value=lex['Value'],
                     Parameter_ID=cmap[lex['Feature_ID']],

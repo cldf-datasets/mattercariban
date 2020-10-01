@@ -18,7 +18,7 @@ Conceptlists in Concepticon:
 - **Lexemes:** 2,190
 - **Sources:** 843
 - **Synonymy:** 1.02
-- **Cognacy:** 2,190 cognates in 717 cognate sets (483 singletons)
+- **Cognacy:** 2,190 cognates in 721 cognate sets (487 singletons)
 - **Cognate Diversity:** 0.30
 - **Invalid lexemes:** 0
 - **Tokens:** 10,614
