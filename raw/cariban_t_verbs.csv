@@ -4,7 +4,7 @@
 3,1,"ikpe1245","ogu","eat","ikpengpacheco2001[155]","y",
 4,1,"kaxu1237","ok(u)","eat (starch)","pc[Spike Gildea]","y",
 5,1,"kuik1246","eku","eat (vegetable)","franchetto2010ergativity[128]","y",
-6,1,"maqu1238","oku","eat (starch)","maquiritaricaceres2011[127]","y",
+6,1,"maqu1238","əkku","eat (starch)","maquiritaricaceres2011[127]","y",
 7,1,"trio1238","ə(ku)","eat (flour)","triomeira1999[234]","y",
 8,1,"waiw1244","oh","eat (bread)","waiwaihawkins1998[192]","y",
 9,1,"waya1269","ək(u)","eat bread; have sex","wayanatavares2005[199]","y",
@@ -166,7 +166,7 @@
 165,23,"apal1257","amo","construct","koehn1986apalai[87]","?",
 166,24,"kuik1246","iŋuhoki","forget","franchetto1986kuikurotexts[65]","y",
 167,26,"ikpe1245","ɨm","kill","alves2013verbo[201]","y",
-168,27,"ikpe1245","eŋ","put","ikpengpacheco1997[116]","y",
+168,10,"ikpe1245","eŋ","put","ikpengpacheco1997[116]","y","Both final rc:rɨ to obj:n and rc:ɨ to obj:e happens in lg:ikpeng. "
 169,28,"para1310","okpe","make","alves2017arara[156]","y","Alternation obj:t- ~ obj:w-. Example given as obj:okpetke, but contains CONT suffix."
 170,28,"ikpe1245","okpe","fix; keep","alves2013verbo[201]","n",
 171,30,"para1310","uge","shake","alves2017arara[156]","y","Example given as obj:ugetke, but contains CONT suffix."
