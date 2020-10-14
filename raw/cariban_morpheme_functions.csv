@@ -478,3 +478,7 @@
 "pc_2sa","2S; 2>3","pc_main",,
 "pc_3sa","3S; 3>3","pc_main",,
 "pc_12sa","1+2S; 1+2>3","pc_main",,
+"tri_1p","1P","tri_habpst",,
+"tri_2p","2P","tri_habpst",,
+"tri_t","3P","tri_habpst","y",
+"tri_3i","3P","tri_habpst","y",
