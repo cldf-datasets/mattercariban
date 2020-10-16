@@ -74,7 +74,7 @@
 "pan_13pro","13pro","enap1235","ana","panarepayne2013[199]",,"Bound counterpart morph:pan_13pre."
 "pan_13pre","13pro","enap1235","ana-","panarepayne2013[199]",,"Free counterpart morph:pan_13pro."
 "pan_3i","3i; it","enap1235","jɨ-; tj-","panarepayne2013[235]","V",
-"pan_3ij","3i; link","enap1235","jɨ-; j-","panarepayne2013[235]","V",
+"pan_3ij","3i","enap1235","jɨ-; j-","panarepayne2013[235]","V",
 "pan_3iw","3i; wnmlz","enap1235","jɨ-; jɨw-; jo-; ju-; ji-; i-","panarepayne2013[236]","V",
 "pan_1a","1a","enap1235","tɨ-; t-","panarepayne2013[203]","V","The form given in src:panarepayne2013[201] is obj:ti-, but that is inaccurate."
 "pan_1sa","1sa","enap1235","w-; wɨ-","panarepayne2013[198]","V",
@@ -172,13 +172,13 @@ In addition, lg:waiwai has morph:wai_1p."
 "ing_13pro","13pro","inga1250","ina","cruz2005fonologia[429]",,
 "ing_3ana","NA","inga1250","an-","cruz2005fonologia[291]","V",
 "ing_3imp","3i","inga1250","i-; Ø","cruz2005fonologia[291--292]","V",
-"ing_3i","3i; link","inga1250","i-; j-","cruz2005fonologia[146]","V",
-"ing_3iw","3i; wnmlz","inga1250","ij-; i-; j-","cruz2005fonologia[146]","V","For a similar development of rc:i-w- in Taranoan, see src:meira1998proto[39--40]"
+"ing_3i","3i","inga1250","i-; j-","cruz2005fonologia[146]","V","Ø _V in Akawaio."
+"ing_3iw","3i; wnmlz","inga1250","ij-; i-","cruz2005fonologia[146]","V","Is j- in Akawaio. For a similar development of rc:i-w- in Taranoan, see src:meira1998proto[39--40]."
 "ing_1a","1a","inga1250","tɨ-; t-","cruz2005fonologia[263]","V",
 "ing_1s","1sa","inga1250","w-; u-","cruz2005fonologia[244]","V",
 "ing_1p","1p; link","inga1250","uj-; j-; u-; Ø","cruz2005fonologia[244]","V; N","src:cruz2005fonologia gives a conflicting account about whether 2>1 scenarios employ a different marker than 3>1 scenarios; the only potential difference would be that the former does not allow deletion of /u/, but the latter does. Given the distribution of morph:ing_2p (3>2, 1>2, 2P), I have decided to analyze the forms occurring in 2>1 and 3>1 (and 1P) as the same marker."
 "ing_1on2","NA; link","inga1250","kənj-; kən-","cruz2005fonologia[262]","V",
-"ing_1w","wnmlz","inga1250","w-; u-","cruz2005fonologia[244]","V",
+"ing_1w","1p; wnmlz","inga1250","w-; u-","cruz2005fonologia[244]","V","obj:uw- in Wayawa'pai Akawaio, Ø in other dialects psrc:akawaiocaesar2003[252]"
 "ing_2p","2p; link","inga1250","əj-; ə-; aj-; a-; ej-; e-","cruz2005fonologia[244]","V; N",
 "ing_2w","2p; wnmlz","inga1250","əw-; ə-","cruz2005fonologia[244]","V",
 "ing_2a","2a","inga1250","mɨ-; m-","cruz2005fonologia[259]","V",
@@ -231,12 +231,12 @@ In addition, lg:waiwai has morph:wai_1p."
 "kui_neg","neg_adv","kuik1246","-la","kuikurodossantos2007[90]","V; N",
 "kui_negnom","neg_nom","kuik1246","-hɨŋɨ","kuikurodossantos2007[137]","V; N",
 "mac_13pro","13pro","macu1259","anna","macushiabbott1991[38]",,
-"mac_3i","3i","macu1259","i-; j-; Ø","macushiabbott1991[101]","V",
-"mac_3s","3i; wnmlz","macu1259","aw-; V-; i-","macushiabbott1991[101]","V","The origins of obj:aw- and obj:V- are unclear."
+"mac_3i","3i; link","macu1259","i-; j-; Ø","macushiabbott1991[101]","V",
+"mac_3s","3a; wnmlz","macu1259","aw-; a-; aa-; e-","macushiabbott1991[101]","V","src:macushiabbott1991[101] claims an allomorph obj:i- /_C. It is not attested, rather obj:a- and obj:aa- are used."
 "mac_1p","1p; link","macu1259","uj-; u-","macushiabbott1991[101]","V; N",
-"mac_1s","1p","macu1259","u-; Ø","macushiabbott1991[101]","V",
-"mac_2p","2p; link","macu1259","aj-; a-; V-","macushiabbott1991[101]","V; N",
-"mac_2s","2p; wnmlz","macu1259","aw-; a-","macushiabbott1991[101]","V",
+"mac_1s","1p","macu1259","uu-; Ø","macushiabbott1991[101]","V",
+"mac_2p","2p; link","macu1259","aj-; a-","macushiabbott1991[101]","V; N",
+"mac_2s","2p; wnmlz","macu1259","aw-; e-; a-","macushiabbott1991[101]","V",
 "mac_detrz","recp","macu1259","at-; es-; eʔ-","macushiabbott1991[37]","V",
 "mac_3n","3n","macu1259","nɨ-; n-","macushiabbott1991[49]","V",
 "mac_2a","2a","macu1259","mɨ-; m-","macushiabbott1991[49]","V",
@@ -304,11 +304,11 @@ This allomorph was not found with any other verb."
 "pem_1p","1p; link","pemo1248","uj-; u-","swiggers2010gramatica[143]","V",
 "pem_2sw","2p; wnmlz","pemo1248","aw-; au-","mosonyi2000pemon[521]","V",
 "pem_2p","2p; link","pemo1248","aj-; a-","swiggers2010gramatica[184]","V",
-"pem_3i","3i; link","pemo1248","ij-; i-","swiggers2010gramatica[127]","V",
-"pem_1s","1sa","pemo1248","Ø; u-","swiggers2010gramatica[153]","V","The C-initial verb obj:ka occurs in an irregular form obj:kuai (obj:u-ka-i src:pemondearmellada1994[223]). This is the only reflex of cogset:1sa in lg:pemon, having been lost _V."
+"pem_3i","3i","pemo1248","ij-; i-","swiggers2010gramatica[127]","V",
+"pem_1s","1sa","pemo1248","Ø","swiggers2010gramatica[153]","V",
 "pem_3n","3n","pemo1248","nV-; n-","swiggers2010gramatica[149]","V",
 "pem_2s","2a","pemo1248","mV-; m-","swiggers2010gramatica[149]","V",
-"pem_1s_new","NA","pemo1248","Ø","swiggers2010gramatica[149]","V",
+"pem_1s_new","NA","pemo1248","Ø; u-","swiggers2010gramatica[149]","V",
 "pem_1a","1a","pemo1248","sV-; s-","swiggers2010gramatica[149]","V",
 "pem_topo","topo","pemo1248","-toʔ","swiggers2010gramatica[201]","V",
 "pem_agnom","ne","pemo1248","-nin","swiggers2010gramatica[107]","V",
