@@ -1,12 +1,12 @@
 (
-(yuk,jap)'Yukpan',
-(mak,cum,(map,yab),(tam,(pan,(kap, mac, pem)'Pemon')'Pemon-Panare')'PPT')'Venezuelan',
-((tri,aku)'Tiriyoan',car)'Taranoan',
-(kar),
-(way),
-(apa),
 (wmr),
-((hix,wai)'Waiwaian',kax)'Parukotoan',
-((ara,ikp)'Xinguan',bak)'Pekodian',
-(uxc)
+(yuk,jap)'Yukpan',
+(uxc),
+(cum,(map,yab),(tam,(pan,(mac, pem, kap)'Pemon')'Pemon-Panare')'PPT',mak)'Venezuelan',
+(kar),
+(apa),
+(way),
+(car,(aku,tri)'Tiriyoan')'Taranoan',
+((ikp,ara)'Xinguan',bak)'Pekodian',
+((wai,hix)'Waiwaian',kax)'Parukotoan'
 )'Cariban';

@@ -50,9 +50,9 @@
 "car_12p",12,"cari1279","kɨ-; k-","robayo2000avance[173]; guerrero2016karihona","V",
 "car_3n","3n","cari1279","nɨ-; n-","robayo2000avance[173]; guerrero2016karihona","V",
 "car_1a","3i","cari1279","i-; Ø","guerrero2016karihona","V",
-"car_12a","12a","cari1279","kɨse-; kɨs-","guerrero2016karihona","V",
-"car_2p","2p; link","cari1279","əji-","guerrero2016karihona","V","Unclear if this is obj:əji- or obj:əjɨ-"
-"car_1w","1sa","cari1279","w-","guerrero2016karihona","V",
+"car_12a","12a","cari1279","kɨsi-; kɨs-","guerrero2016karihona","V",
+"car_2p","2p; link","cari1279","əji-; əj-","guerrero2016karihona","V","Unclear if this is obj:əji- or obj:əjɨ-"
+"car_1w","1sa","cari1279","wɨ-; w-","guerrero2016karihona","V",
 "pc_13pro","13pro","cari1283","(ap)ina","meira2002first","V",
 "pc_3i","3i","cari1283","i-","meira2010origin","V",
 "pc_3pro","3pro","cari1283","(i)nərə","meira2002first[268]",,
@@ -74,15 +74,12 @@
 "pan_13pro","13pro","enap1235","ana","panarepayne2013[199]",,"Bound counterpart morph:pan_13pre."
 "pan_13pre","13pro","enap1235","ana-","panarepayne2013[199]",,"Free counterpart morph:pan_13pro."
 "pan_3i","3i; it","enap1235","jɨ-; tj-","panarepayne2013[235]","V",
-"pan_3ij","3i","enap1235","jɨ-; j-","panarepayne2013[235]","V",
-"pan_3iw","3i; wnmlz","enap1235","jɨ-; jɨw-; jo-; ju-; ji-; i-","panarepayne2013[236]","V",
+"pan_3ij","3i","enap1235","jɨ-; j-","panarepayne2013[235]","V","Combines with morph:pan_sa to obj:jɨw-, obj:jo-, obj:ju-."
 "pan_1a","1a","enap1235","tɨ-; t-","panarepayne2013[203]","V","The form given in src:panarepayne2013[201] is obj:ti-, but that is inaccurate."
 "pan_1sa","1sa","enap1235","w-; wɨ-","panarepayne2013[198]","V",
-"pan_1p","link","enap1235","j-; Ø","panarepayne2013[200--201]","V","Triggers stress shift."
-"pan_1w","wnmlz","enap1235","wɨ-; w-","panarepayne2013[236]","V",
+"pan_1p","link","enap1235","j-; Ø","panarepayne2013[200--201]","V","Triggers stress shift. Before morph:pan_sa, always Ø."
 "pan_1sp","link","enap1235","j-; Ø","mattei1994diccionario","V","Not sure if this triggers stress shift, would make it formally identical to morph:pan_1p. Assuming it does not."
-"pan_2p","2p; link","enap1235","aj-; a-","panarepayne2013[201]","V",
-"pan_2w","2p; wnmlz","enap1235","aw-; o-","panarepayne2013[236]","V",
+"pan_2p","2p; link","enap1235","aj-; a-","panarepayne2013[201]","V","Combines with morph:pan_sa to obj:o-."
 "pan_2a","2a","enap1235","mɨ-; m-","panarepayne2013[186]","V","Occurs with morph:pan_1p in 2>1 scenarios. The transitive form given in src:panarepayne2013[201] is obj:mi-, but that is inaccurate."
 "pan_12",12,"enap1235","kɨ-; k-","panarepayne2013[201--202]","V","The form given in src:panarepayne2013[201] is obj:ki-, but that is inaccurate."
 "pan_detrz","recp","enap1235","ɨt͡ʃ-; as-; əs-; ɨs-; us-; at-; ɨt-; oh-; əʔ-; uʔ-","panarepayne2013[180]","V","The allomorphs are mostly lexically conditioned psrc:panarepayne2013[180]. There are many more."
@@ -214,9 +211,6 @@ In addition, lg:waiwai has morph:wai_1p."
 "kax_2p","2p","kaxu1237","o-; a-","schuring2018kaxuyana[85]","V",
 "kax_3n","3n","kaxu1237","nɨ-; n-","schuring2018kaxuyana[85]","V","no umlaut. Has an allomorph obj:kɨn(ɨ)- in some past tenses."
 "kax_3ni","3n","kaxu1237","nɨ-; n-","schuring2018kaxuyana[85]","V","causes umlaut. Has an allomorph obj:kɨn(ɨ)- in some past tenses."
-"kax1w","wnmlz","kaxu1237","wɨ-; w-","pc[Spike Gildea]","V",
-"kax2w","2p; wnmlz","kaxu1237","ow-","pc[Spike Gildea]","V",
-"kax12w","12; wnmlz","kaxu1237","kuw-; kɨw-","pc[Spike Gildea]","V",
 "kui_t","t","kuik1246","tɨ-; t-","kuikurodossantos2007[241]","V",
 "kui_13","NA","kuik1246","tis-; ti-","franchetto1986kuikuro[158]","V; P","Has a free counterpart obj:tisuɣe. Triggers umlaut psrc:kuikurodossantos2007[76]."
 "kui_3i","3i","kuik1246","i-; iɲ-; Ø","franchetto1986kuikuro[158]","V",
@@ -423,3 +417,4 @@ This allomorph was not found with any other verb."
 "pc_12sa","12a","cari1283","kɨt-","gildea1998","V",
 "pc_3sa","3n","cari1283","n-","gildea1998","V",
 "pc_2sa","2a","cari1283","m-","gildea1998","V",
+"pan_sa","wnmlz","enap1235","w-; wɨ-","panarepayne2013","V",
