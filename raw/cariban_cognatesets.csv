@@ -4,7 +4,7 @@
 "13pro","*(ap)ina","1+3PRO",,"meira2002first[263]"
 "1a","*t-","1A",,"meira1998proto[109]"
 "1p","*u-","1P",,"gildea1998[84]"
-"1pro","*(ə)wɨ","1PRO",,"meira2010origin[489]"
+"1pro","*(ə)wɨ","1PRO","Some languages added the emphatic particle cogset:emp.","meira2010origin[489]"
 "1sa","*w-","1SA",,"gildea1998[90]"
 "2a","*m-","2A",,"gildea1998[82]"
 "2p","*ə-","2P",,"gildea2010story[96]"
@@ -17,7 +17,7 @@
 "refl","*e-","REFL",,"meira2010origin[513]"
 "recp","*əte-","RECP",,"meira2010origin[513]"
 "link","*j-","LK",,"gildea1998[88]"
-"2pro","*əmə","2PRO",,"meira2010origin[489]"
+"2pro","*əmə","2PRO","Some languages added the emphatic particle cogset:emp.","meira2010origin[489]"
 "3m","*mə-","3?",,
 "wnmlz","*w- (NMLZ)","NMLZ",,
 "3pro","*(i)nərə","3PRO",,"meira2002first[268]"
@@ -36,3 +36,4 @@
 "neg_adv","*-pɨra","NEG",,"gildea2016negation"
 "neg_nom","*-pɨnɨ","NEG.NMLZ",,
 "3a","*a-",3,"Appears in several languages in some inflections.",
+"pek_12","*ko-","1>2","Possible connection to lg:wayana morph:way_1on2.",

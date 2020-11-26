@@ -1,30 +1,30 @@
 (
 opon,
-(yuk,jap)'Yukpa Group',
+(yuk,jap)'Yukpa G',
 kar,
 (
-(car,(aku,tri)'Tiriyó subgroup')'Tiriyó group',
+(car,(aku,tri)'Tiriyó SG')'Tiriyó G',
 kax,
-(wai,hix)'Waiwai group'
-)'Guiana branch',
+(wai,hix)'Waiwai G'
+)'Guiana B',
 (
-(bona,wmr)'Yawaperí group',
-(sapa,(para,pxan)'Paravilyana subgroup')'Paravilyana group',
-(puru,(mac,pem,kap)'Pemong proper subgroup')'Pemong group'
-)'North Amazonian branch',
+(bona,wmr)'Yawaperí G',
+(sapa,(para,pxan)'Paravilyana SG')'Paravilyana G',
+(puru,(mac,pem,kap)'Pemong proper SG')'Pemong G'
+)'North Amazonian B',
 (
 cum,
-(tive,yao)'Yao group',
-(way,arak)'Wayana group',
+(tive,yao)'Yao G',
+(way,arak)'Wayana G',
 apa,
 (map,yab),
 mak
-)'Central branch',
+)'Central B',
 (
-(bak,uxc)'Bakairí group',
-(ara,apia,yaru,ikp)'Arara group',
+(bak,uxc)'Bakairí G',
+(ara,apia,yaru,ikp)'Arara G',
 palm,
 pime,
 pan
-)'South Amazonian branch'
-)'Kariban';
+)'South Amazonian B'
+);
