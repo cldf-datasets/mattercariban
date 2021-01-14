@@ -1,5 +1,5 @@
 {
-    "title": null,
+    "title": "Modified Swadesh-100 list of 23 Cariban languages",
     "access_right": "open",
     "keywords": [
         "cldf:Wordlist",
@@ -16,5 +16,9 @@
             "identifier": "lexibank"
         }
     ],
-    "upload_type": "dataset"
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Matter, Florian. 2020. Comparative Cariban Database. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at https://cariban.clld.org/)</p>\n</blockquote>",
+    "license": {
+        "id": "CC-BY-4.0"
+    }
 }
