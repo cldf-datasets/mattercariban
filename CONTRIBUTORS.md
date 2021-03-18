@@ -2,4 +2,5 @@
 
 Name | GitHub user | Role
 --- | --- | ---
- | @ | maintainer
+Florian Matter | @fmatter | maintainer
+

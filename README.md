@@ -1,4 +1,15 @@
-# Dataset mattercariban
+# Modified Swadesh-100 list of 23 Cariban languages
+
+Cite the source dataset as
+
+> Matter, Florian. 2020. Comparative Cariban Database. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at https://cariban.clld.org/)
+
+
+This list contains 2241 lexical entries for 23 Cariban languages. The concepts are based on Meira & Franchetto (2005) (doi:10.1086/491633), with the following modifications: ‘vein’ was removed, as it is usually identical to ‘root’; 'lie', 'sit', and 'stand' were removed, as there are usually no dedicated verbs in Cariban languages.
+
+This dataset is licensed under a CC-BY-4.0 license
+
+Available online at https://cariban.clld.org/morphemes#swadesh
 
 
 Conceptlists in Concepticon:
@@ -21,7 +32,7 @@ Conceptlists in Concepticon:
 - **Cognacy:** 2,249 cognates in 683 cognate sets (454 singletons)
 - **Cognate Diversity:** 0.27
 - **Invalid lexemes:** 0
-- **Tokens:** 10,859
+- **Tokens:** 10,856
 - **Segments:** 41 (0 BIPA errors, 0 CTLS sound class errors, 41 CLTS modified)
 - **Inventory size (avg):** 19.54
 
@@ -35,6 +46,7 @@ Conceptlists in Concepticon:
 
 Name | GitHub user | Role
 --- | --- | ---
- | @ | maintainer
+Florian Matter | @fmatter | maintainer
+
 
 

@@ -4,7 +4,7 @@
     "description": "This list contains 2241 lexical entries for 23 Cariban languages. The concepts are based on Meira & Franchetto (2005) (doi:10.1086/491633), with the following modifications: ‘vein’ was removed, as it is usually identical to ‘root’; 'lie', 'sit', and 'stand' were removed, as there are usually no dedicated verbs in Cariban languages.",
     "license": "CC-BY-4.0",
     "url": "https://cariban.clld.org/morphemes#swadesh",
-    "citation": "Matter, Florian. 2020. Comparative Cariban Database. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at http://cariban.clld.org/)",
-    "conceptlist": ["Matter-2020-95"],
+    "citation": "Matter, Florian. 2020. Comparative Cariban Database. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at https://cariban.clld.org/)",
+    "conceptlist": ["Swadesh-1960-100a"],
     "version": "2.7.1"
 }

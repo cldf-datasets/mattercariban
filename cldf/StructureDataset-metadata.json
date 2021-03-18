@@ -6,20 +6,25 @@
         }
     ],
     "aboutUrl": null,
+    "dc:bibliographicCitation": "Matter, Florian. 2020. Comparative Cariban Database. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at https://cariban.clld.org/)",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#StructureDataset",
+    "dc:description": "This list contains 2241 lexical entries for 23 Cariban languages. The concepts are based on Meira & Franchetto (2005) (doi:10.1086/491633), with the following modifications: \u2018vein\u2019 was removed, as it is usually identical to \u2018root\u2019; 'lie', 'sit', and 'stand' were removed, as there are usually no dedicated verbs in Cariban languages.",
     "dc:format": [
         "http://concepticon.clld.org/contributions/Swadesh-1960-100a"
     ],
+    "dc:identifier": "https://cariban.clld.org/morphemes#swadesh",
     "dc:isVersionOf": null,
+    "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
     "dc:source": "sources.bib",
+    "dc:title": "Modified Swadesh-100 list of 23 Cariban languages",
     "dcat:accessURL": "https://github.com/cldf-datasets/mattercariban",
     "prov:wasDerivedFrom": [
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/mattercariban",
-            "dc:created": "2e02c38"
+            "dc:created": "634efb1"
         },
         {
             "rdf:type": "prov:Entity",
