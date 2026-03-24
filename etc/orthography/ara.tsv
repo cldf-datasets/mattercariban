@@ -17,5 +17,7 @@ i	i	i
 o	o	o
 u	u	u
 ŋ	ng	ŋ
-t͡ʃ	tx	t͡ʃ
+tʃ	tx	t͡ʃ
 ɨ	y	ɨ
++		-
+NULL	^-	^-

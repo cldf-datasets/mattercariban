@@ -14,6 +14,8 @@ u		u
 e		e
 o		o
 a		a
-t͡ʃ		t͡ʃ
+tʃ		t͡ʃ
 w		w
 s		s
++		-
+NULL	^-	^-

@@ -10,7 +10,7 @@ n	n	n
 r	r	r
 ɨ	î	ɨ
 ʃ	x	ʃ
-t͡ʃ	c	t͡ʃ
+tʃ	c	t͡ʃ
 ɲ	ñ; n̂	ɲ
 rʲ	r̃; r̂	rʲ
 j	y	j
@@ -19,3 +19,5 @@ m	m	m
 ɸ	p	ɸ
 w	w	w
 h	h	h
++		-
+NULL	^-	^-

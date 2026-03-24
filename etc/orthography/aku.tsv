@@ -12,8 +12,10 @@ i		i
 u		u
 e		e
 a		a
-t͡ʃ		t͡ʃ
+tʃ		t͡ʃ
 w		w
 o		o
 ə		ə
 h		h
++		-
+NULL		^-
