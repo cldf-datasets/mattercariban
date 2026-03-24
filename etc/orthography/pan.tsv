@@ -8,7 +8,7 @@ s	s	s
 w	w	w
 r	r	r
 h	j	h
-t͡ʃ	ch	t͡ʃ
+tʃ	ch	t͡ʃ
 ɲ	ñ	ɲ
 ʔ	’	ʔ
 j	y	j
@@ -19,3 +19,5 @@ e	e	e
 ə	ë	ə
 o	o	o
 a	a	a
++		-
+NULL	^-	^-

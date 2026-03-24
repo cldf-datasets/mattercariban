@@ -14,7 +14,7 @@ e	e	e
 a	a	a
 u	u	u
 o	o	o
-t͡ʃ	tx	t͡ʃ
+tʃ	tx	t͡ʃ
 ɟ	dy	ɟ
 ɸ	f	ɸ
 ʃ	x	ʃ
@@ -22,3 +22,5 @@ t͡ʃ	tx	t͡ʃ
 rʲ	ry	rʲ
 j	y	j
 ɨ	ɨ	ɨ
++		-
+NULL	^-	^-

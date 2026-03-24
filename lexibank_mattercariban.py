@@ -4,32 +4,11 @@ import pylexibank
 import pycldf
 from pycldf.sources import Sources, Reference
 
-# Customize your basic data.
-# if you need to store other data in columns than the lexibank defaults, then over-ride
-# the table type (pylexibank.[Language|Lexeme|Concept|Cognate|]) and add the required columns e.g.
-#
-#import attr
-#
-#@attr.s
-#class Concept(pylexibank.Concept):
-#    MyAttribute1 = attr.ib(default=None)
-
 
 class Dataset(pylexibank.Dataset):
     dir = Path(__file__).parent
     id = "mattercariban"
-
-    # register custom data types here (or language_class, lexeme_class, cognate_class):
-    #concept_class = Concept
-
-    # define the way in which forms should be handled
-    form_spec = pylexibank.FormSpec(
-        brackets={"(": ")"},  # characters that function as brackets
-        separators=";/,",  # characters that split forms e.g. "a, b".
-        missing_data=('?', '-'),  # characters that denote missing data.
-        strip_inside_brackets=True,   # do you want data removed in brackets or not?
-        replacements=[("-", "")]
-    )
+    writer_options = dict(keep_languages=False, keep_parameters=False)
 
     def cldf_specs(self):
         return {
@@ -42,14 +21,6 @@ class Dataset(pylexibank.Dataset):
             ),
         }
 
-    def cmd_download(self, args):
-        """
-        Download files to the raw/ directory. You can use helpers methods of `self.raw_dir`, e.g.
-        to download a temporary TSV file and convert to persistent CSV:
-
-        >>> with self.raw_dir.temp_download("http://www.example.com/e.tsv", "example.tsv") as data:
-        ...     self.raw_dir.write_csv('template.csv', self.raw_dir.read_csv(data, delimiter='\t'))
-        """
 
     def cmd_makecldf(self, args):
         """
@@ -59,10 +30,6 @@ class Dataset(pylexibank.Dataset):
             writer.cldf.add_component('CognatesetTable')
             writer.add_sources(*self.raw_dir.read_bib('cariban_resolved.bib'))
             cmap = writer.add_concepts(lookup_factory=lambda c: c.english)
-            cmap['you'] = cmap['thou']
-            cmap['grease/fat'] = cmap['grease']
-            cmap['breast'] = cmap['breasts']
-            cmap['son'] = cmap['person']
             data = pycldf.Dataset.from_metadata(self.raw_dir / 'cariban_data.json')
             for lang in data['LanguageTable']:
                 writer.add_language(ID=lang['ID'], Name=lang['Name'], Glottocode=lang["Glottocode"])
