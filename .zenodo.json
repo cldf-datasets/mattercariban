@@ -10,7 +10,12 @@
             "name": "Florian Matter"
         }
     ],
-    "contributors": [],
+    "contributors": [
+        {
+            "name": "Frederic Blum",
+            "type": "Other"
+        }
+    ],
     "communities": [
         {
             "identifier": "lexibank"

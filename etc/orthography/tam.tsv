@@ -9,10 +9,12 @@ p	p	p
 t	t	t
 k	k	k
 ʔ	'	ʔ
-t͡ʃ	c	t͡ʃ
+tʃ	c	t͡ʃ
 m	m	m
 n	n	n
 ɲ	ñ	ɲ
 r	r	r
 w	w	w
 j	y	j
++		-
+NULL	^-	^-

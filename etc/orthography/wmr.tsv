@@ -10,8 +10,8 @@ m	m	m
 n	n	n
 r	r	r
 w	w	w
-t͡ʃ	tx	t͡ʃ
-d͡ʒ	dj	d͡ʒ
+tʃ	tx	t͡ʃ
+dʒ	dj	d͡ʒ
 ʔ	’	ʔ
 ʃ	x	ʃ
 ɲ	nj	ɲ
@@ -22,3 +22,5 @@ e	e	e
 o	o	o
 a	a	a
 ɨ	y	ɨ
++		-
+NULL	^-	^-
