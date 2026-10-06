@@ -1,107 +1,97 @@
 from pathlib import Path
 import cldfbench
-import pylexibank
 import pycldf
 from pycldf.sources import Sources, Reference
-
-# Customize your basic data.
-# if you need to store other data in columns than the lexibank defaults, then over-ride
-# the table type (pylexibank.[Language|Lexeme|Concept|Cognate|]) and add the required columns e.g.
-#
-#import attr
-#
-#@attr.s
-#class Concept(pylexibank.Concept):
-#    MyAttribute1 = attr.ib(default=None)
+from pylexibank import Dataset as BaseDataset
+from pylexibank import FormSpec
 
 
-class Dataset(pylexibank.Dataset):
+def add_c_id(c_set, dic, counter=1):
+    """Cognate ID counter"""
+    if c_set not in dic:
+        dic[c_set] = counter
+        counter += 1
+    return dic[c_set]
+
+
+class Dataset(BaseDataset):
     dir = Path(__file__).parent
     id = "mattercariban"
 
-    # register custom data types here (or language_class, lexeme_class, cognate_class):
-    #concept_class = Concept
+    writer_options = {"keep_languages": False, "keep_parameters": False}
 
     # define the way in which forms should be handled
-    form_spec = pylexibank.FormSpec(
-        brackets={"(": ")"},  # characters that function as brackets
-        separators=";/,",  # characters that split forms e.g. "a, b".
-        missing_data=('?', '-'),  # characters that denote missing data.
-        strip_inside_brackets=True,   # do you want data removed in brackets or not?
+    form_spec = FormSpec(
+        brackets={"(": ")"},
+        separators=";/,",
+        missing_data=('?', '-'),
+        strip_inside_brackets=True,
         replacements=[("-", "")]
     )
 
-    def cldf_specs(self):
-        return {
-            None: pylexibank.Dataset.cldf_specs(self),
-            'structure': cldfbench.CLDFSpec(
-                dir=self.cldf_dir,
-                module='StructureDataset',
-                data_fnames={'ParameterTable': 'features.csv'},
-                writer_cls=cldfbench.CLDFWriter,
-            ),
-        }
-
-    def cmd_download(self, args):
-        """
-        Download files to the raw/ directory. You can use helpers methods of `self.raw_dir`, e.g.
-        to download a temporary TSV file and convert to persistent CSV:
-
-        >>> with self.raw_dir.temp_download("http://www.example.com/e.tsv", "example.tsv") as data:
-        ...     self.raw_dir.write_csv('template.csv', self.raw_dir.read_csv(data, delimiter='\t'))
-        """
 
     def cmd_makecldf(self, args):
         """
         Convert the raw data to a CLDF dataset.
         """
-        with self.cldf_writer(args) as writer:
-            writer.cldf.add_component('CognatesetTable')
-            writer.add_sources(*self.raw_dir.read_bib('cariban_resolved.bib'))
-            cmap = writer.add_concepts(lookup_factory=lambda c: c.english)
-            cmap['you'] = cmap['thou']
-            cmap['grease/fat'] = cmap['grease']
-            cmap['breast'] = cmap['breasts']
-            cmap['son'] = cmap['person']
-            data = pycldf.Dataset.from_metadata(self.raw_dir / 'cariban_data.json')
-            for lang in data['LanguageTable']:
-                writer.add_language(ID=lang['ID'], Name=lang['Name'], Glottocode=lang["Glottocode"])
+        args.writer.add_sources(*self.raw_dir.read_bib('cariban_resolved.bib'))
+        args.log.info("added sources")
 
-            cs_seen = set()
-            reconstructions = {
-                tuple(c['ID'].split('-')): c['Form'] for c in
-                self.raw_dir.read_csv('cariban_lexical_reconstructions.csv', dicts=True)}
-            for lex in self.raw_dir.read_csv('cariban_swadesh_list.csv', dicts=True):
-                #"Language_ID","Swadesh_Nr","Feature_ID","Value","Cognateset_ID","Source","Comment","Full_Form"
-                if lex['Feature_ID'] not in cmap:
-                    print(lex['Feature_ID'])
-                    continue
-                for form in writer.add_lexemes(
-                    Value=lex['Value'],
-                    Parameter_ID=cmap[lex['Feature_ID']],
-                    Language_ID=lex['Language_ID'],
-                    Source=[Reference(*d) for d in [Sources.parse(lex['Source'].replace(';', ','))]]
-                    if lex['Source'] and not lex['Source'].startswith('pc') else [],
-                ):
-                    cs_key = (lex['Feature_ID'], lex['Cognateset_ID'])
-                    cs_id = '{}-{}'.format(cmap[cs_key[0]], cs_key[1])
-                    if cs_key not in cs_seen:
-                        writer.objects['CognatesetTable'].append(dict(
-                            ID=cs_id,
-                            Description=reconstructions.get(cs_key),
-                        ))
-                        cs_seen.add(cs_key)
-                    writer.add_cognate(lexeme=form, Cognateset_ID=cs_id)
+        cmap = args.writer.add_concepts(lookup_factory=lambda c: c.english)
+        cmap['you'] = cmap['thou']
+        cmap['grease/fat'] = cmap['grease']
+        cmap['breast'] = cmap['breasts']
+        cmap['son'] = cmap['person']
+        # cmap['jaguar'] = cmap['']
+        data = pycldf.Dataset.from_metadata(self.raw_dir / 'cariban_data.json')
+        for lang in data['LanguageTable']:
+            args.writer.add_language(ID=lang['ID'], Name=lang['Name'], Glottocode=lang["Glottocode"])
 
-            # Note: We want to re-use LanguageTable across the two CLDF datasets:
-            LanguageTable = writer.cldf['LanguageTable']
+        # cs_seen = set()
+        reconstructions = {
+            c['ID']: (i, c['Form'])
+            for i, c in enumerate(
+                c for c in self.raw_dir.read_csv('cariban_lexical_reconstructions.csv', dicts=True)
+                if c["Language_ID"] == 'cari1283'
+            )
+        }
 
-        with self.cldf_writer(args, cldf_spec='structure', clean=False) as writer:
-            writer.cldf.add_component(LanguageTable)  # we reuse the one from above!
-            #writer.objects['ParameterTable'].append({'ID': 'f1'})
-            #writer.objects['ValueTable'].append({
-            #    'ID': 1,
-            #    'Value': 'x',
-            #    'Language_ID': 'abc',
-            #    'Parameter_ID': 'f1',
-            #})
+        c_dic = {}
+        for lex in self.raw_dir.read_csv('cariban_swadesh_list.csv', dicts=True):
+            #"Language_ID","Swadesh_Nr","Feature_ID","Value","Cognateset_ID","Source","Comment","Full_Form"
+            # Check for missing concepts
+            if lex['Feature_ID'] not in cmap:
+                print("Missing concept:", lex['Feature_ID'])
+                continue
+
+            # Add cognate set
+            c_id = lex['Feature_ID'] + '-' + lex['Cognateset_ID']
+
+            # Add lexemes
+            lexeme = args.writer.add_lexemes(
+                Value=lex['Value'],
+                Parameter_ID=cmap[lex['Feature_ID']],
+                Language_ID=lex['Language_ID'],
+                Cognacy=add_c_id(c_id, c_dic),
+                Source=[Reference(*d) for d in [Sources.parse(lex['Source'].replace(';', ','))]]
+                if lex['Source'] and not lex['Source'].startswith('pc') else [],
+            )
+
+            # args.writer.add_cognate(
+            #     lexeme=lexeme,
+            #     Cognateset_ID=add_c_id(c_id, c_dic)#,
+            #     Alignment=alignment,
+            #     Alignment_Method="false",
+            #     Alignment_Source="expert"
+            #     )
+
+        for rec in reconstructions:
+            param = rec.split('-')[0]
+            if param in cmap:
+                args.writer.add_lexemes(
+                    Value=rec[1],
+                    Parameter_ID=cmap[param],
+                    Language_ID='pc',
+                    Cognacy=add_c_id(rec, c_dic),
+                    Source="matter_cariban_phylo"
+                )
