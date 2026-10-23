@@ -16,9 +16,6 @@ This dataset is licensed under a CC-BY-4.0 license
 
 Available online at https://cariban.clld.org/morphemes#swadesh
 
-
-Conceptlists in Concepticon:
-- [Swadesh-1960-100a](https://concepticon.clld.org/contributions/Swadesh-1960-100a)
 ## Statistics
 
 
@@ -30,18 +27,18 @@ Conceptlists in Concepticon:
 ![CLTS SoundClass: 100%](etc/badge_sc.svg)
 
 - **Varieties:** 25 (linked to 25 different Glottocodes)
-- **Concepts:** 95 (linked to 95 different Concepticon concept sets)
-- **Lexemes:** 2,384
-- **Sources:** 976
+- **Concepts:** 96 (linked to 96 different Concepticon concept sets)
+- **Lexemes:** 2,410
+- **Sources:** 983
 - **Synonymy:** 1.05
 - **Invalid lexemes:** 0
-- **Tokens:** 10,991
+- **Tokens:** 11,132
 - **Segments:** 43 (0 BIPA errors, 0 CLTS sound class errors, 43 CLTS modified)
 - **Inventory size (avg):** 19.40
 
 ## Possible Improvements:
 
-- Entries missing sources: 48/2384 (2.01%%)
+- Entries missing sources: 49/2410 (2.03%%)
 
 
 # Contributors

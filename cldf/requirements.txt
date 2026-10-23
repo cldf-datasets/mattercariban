@@ -14,7 +14,7 @@ idna==3.20
 iniconfig==2.3.0
 isodate==0.7.2
 jsonschema==4.26.0
-lingpy==2.6.14
+lingpy==2.6.13
 lxml==6.1.3
 Markdown==3.11
 nameparser==2.3.0

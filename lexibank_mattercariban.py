@@ -1,16 +1,17 @@
 from pathlib import Path
 import cldfbench
+from clldutils.misc import slug
 import pycldf
 from pycldf.sources import Sources, Reference
 from pylexibank import Dataset as BaseDataset
 from pylexibank import FormSpec
 
 
-def add_c_id(c_set, dic, counter=1):
+def add_c_id(c_set, dic, counter=[1]):
     """Cognate ID counter"""
     if c_set not in dic:
-        dic[c_set] = counter
-        counter += 1
+        dic[c_set] = counter[0]
+        counter[0] += 1
     return dic[c_set]
 
 
@@ -29,7 +30,6 @@ class Dataset(BaseDataset):
         replacements=[("-", "")]
     )
 
-
     def cmd_makecldf(self, args):
         """
         Convert the raw data to a CLDF dataset.
@@ -37,12 +37,17 @@ class Dataset(BaseDataset):
         args.writer.add_sources(*self.raw_dir.read_bib('cariban_resolved.bib'))
         args.log.info("added sources")
 
-        cmap = args.writer.add_concepts(lookup_factory=lambda c: c.english)
-        cmap['you'] = cmap['thou']
-        cmap['grease/fat'] = cmap['grease']
-        cmap['breast'] = cmap['breasts']
-        cmap['son'] = cmap['person']
-        # cmap['jaguar'] = cmap['']
+        # add concepts
+        concepts = {}
+        for concept in self.concepts:
+            args.writer.add_concept(
+                    ID=concept["ID"],
+                    Name=concept["ENGLISH"],
+                    Concepticon_ID=concept["CONCEPTICON_ID"],
+                    Concepticon_Gloss=concept["CONCEPTICON_GLOSS"]
+                    )
+            concepts[concept["ENGLISH"]] = concept["ID"]
+
         data = pycldf.Dataset.from_metadata(self.raw_dir / 'cariban_data.json')
         for lang in data['LanguageTable']:
             args.writer.add_language(ID=lang['ID'], Name=lang['Name'], Glottocode=lang["Glottocode"])
@@ -60,7 +65,7 @@ class Dataset(BaseDataset):
         for lex in self.raw_dir.read_csv('cariban_swadesh_list.csv', dicts=True):
             #"Language_ID","Swadesh_Nr","Feature_ID","Value","Cognateset_ID","Source","Comment","Full_Form"
             # Check for missing concepts
-            if lex['Feature_ID'] not in cmap:
+            if lex['Feature_ID'] not in concepts:
                 print("Missing concept:", lex['Feature_ID'])
                 continue
 
@@ -70,7 +75,7 @@ class Dataset(BaseDataset):
             # Add lexemes
             lexeme = args.writer.add_lexemes(
                 Value=lex['Value'],
-                Parameter_ID=cmap[lex['Feature_ID']],
+                Parameter_ID=concepts[lex['Feature_ID']],
                 Language_ID=lex['Language_ID'],
                 Cognacy=add_c_id(c_id, c_dic),
                 Source=[Reference(*d) for d in [Sources.parse(lex['Source'].replace(';', ','))]]
@@ -87,10 +92,10 @@ class Dataset(BaseDataset):
 
         for rec in reconstructions:
             param = rec.split('-')[0]
-            if param in cmap:
+            if param in concepts:
                 args.writer.add_lexemes(
                     Value=rec[1],
-                    Parameter_ID=cmap[param],
+                    Parameter_ID=concepts[param],
                     Language_ID='pc',
                     Cognacy=add_c_id(rec, c_dic),
                     Source="matter_cariban_phylo"

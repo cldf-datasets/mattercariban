@@ -1,0 +1,48 @@
+{
+  "remote": {
+    "remotemattercariban": {
+      "triples.py": {
+        "url":  "http://lingulist.de/pth/triples.py",
+        "data": {
+          "file": "mattercariban",
+          "remote_dbase": "mattercariban",
+          "columns": "DOCULECT|CONCEPT|VALUE|FORM|TOKENS|COGID|ALIGNMENT|PATTERNS|MORPHEMES|NOTE"
+        }
+      },
+      "update.py": {
+        "url": "http://lingulist.de/pth/updater.py",
+        "data": {
+          "file": "mattercariban",
+          "remote_dbase": "mattercariban"
+        }
+      },
+      "new_id.py": {
+        "url": "http://lingulist.de/pth/triples.py",
+        "data": {
+          "file": "mattercariban",
+          "remote_dbase": "mattercariban"
+        }
+      },
+      "modifications.py": {
+        "url": "http://lingulist.de/pth/triples.py",
+        "data": {
+          "file": "mattercariban",
+          "remote_dbase": "mattercariban"
+        }
+      }
+    }
+  },
+  "links": [
+    {
+      "url": "edictor.html",
+      "name": "MatterCariban (Remote)",
+      "data": {
+        "file": "remotemattercariban",
+        "remote_dbase": "remotemattercariban",
+        "async": "true",
+        "preview": 30,
+        "basics": "DOCULECT|CONCEPT|FORM|TOKENS|COGID|ALIGNMENT|NOTE"
+      }
+    }
+  ]
+}

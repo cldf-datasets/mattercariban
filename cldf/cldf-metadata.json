@@ -4,9 +4,6 @@
     "dc:bibliographicCitation": "Matter, Florian. 2020. Comparative Cariban Database. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at https://cariban.clld.org/)",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:description": "This list contains 2241 lexical entries for 23 Cariban languages. The concepts are based on Meira & Franchetto (2005) (doi:10.1086/491633), with the following modifications: \u2018vein\u2019 was removed, as it is usually identical to \u2018root\u2019; 'lie', 'sit', and 'stand' were removed, as there are usually no dedicated verbs in Cariban languages.",
-    "dc:format": [
-        "https://concepticon.clld.org/contributions/Swadesh-1960-100a"
-    ],
     "dc:identifier": "https://cariban.clld.org/morphemes#swadesh",
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:source": "sources.bib",
@@ -16,7 +13,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/mattercariban",
             "rdf:type": "prov:Entity",
-            "dc:created": "v0.1-3-gfa8e545",
+            "dc:created": "v0.1-4-g1fcfab5",
             "dc:title": "Repository"
         },
         {
@@ -58,7 +55,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
             "dc:description": "\nRaw lexical data item as it can be pulled out of the original datasets.\n\nThis is the basis for creating rows in CLDF representations of the data by\n- splitting the lexical item into forms\n- cleaning the forms\n- potentially tokenizing the form\n",
-            "dc:extent": 2384,
+            "dc:extent": 2410,
             "tableSchema": {
                 "columns": [
                     {
@@ -229,7 +226,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
             "dc:description": "Essential data of a concept mapped to Concepticon.",
-            "dc:extent": 95,
+            "dc:extent": 96,
             "tableSchema": {
                 "columns": [
                     {
