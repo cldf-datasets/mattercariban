@@ -28,17 +28,17 @@ Available online at https://cariban.clld.org/morphemes#swadesh
 
 - **Varieties:** 25 (linked to 25 different Glottocodes)
 - **Concepts:** 96 (linked to 96 different Concepticon concept sets)
-- **Lexemes:** 2,410
+- **Lexemes:** 2,418
 - **Sources:** 983
 - **Synonymy:** 1.05
 - **Invalid lexemes:** 0
-- **Tokens:** 11,132
+- **Tokens:** 11,693
 - **Segments:** 43 (0 BIPA errors, 0 CLTS sound class errors, 43 CLTS modified)
-- **Inventory size (avg):** 19.40
+- **Inventory size (avg):** 19.52
 
 ## Possible Improvements:
 
-- Entries missing sources: 49/2410 (2.03%%)
+- Entries missing sources: 49/2418 (2.03%%)
 
 
 # Contributors

@@ -67,4 +67,6 @@ ENV/
 .~lock.*
 
 # EDICTOR
-/scripts/*
+scripts/
+*.log
+*.sqlite3

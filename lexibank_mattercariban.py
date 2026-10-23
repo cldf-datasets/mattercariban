@@ -90,13 +90,13 @@ class Dataset(BaseDataset):
             #     Alignment_Source="expert"
             #     )
 
-        for rec in reconstructions:
-            param = rec.split('-')[0]
+        for rec_id, (idx, form) in reconstructions.items():
+            param = rec_id.split('-')[0]
             if param in concepts:
                 args.writer.add_lexemes(
-                    Value=rec[1],
+                    Value=form,
                     Parameter_ID=concepts[param],
                     Language_ID='pc',
-                    Cognacy=add_c_id(rec, c_dic),
+                    Cognacy=add_c_id((rec_id, (idx, form)), c_dic),
                     Source="matter_cariban_phylo"
                 )
